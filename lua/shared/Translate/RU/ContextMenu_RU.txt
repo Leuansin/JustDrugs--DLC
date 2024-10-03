@@ -1,0 +1,8 @@
+ContextMenu_RU = {
+
+	ContextMenu_Inhale = "Inhale",
+	ContextMenu_Inject = "Inject",
+	ContextMenu_Swallow = "Swallow",
+	ContextMenu_Eat Shrooms = "Eat Shrooms",
+	ContextMenu_Take Pill = "Take Pill",
+} 

@@ -1,0 +1,48 @@
+module DrugsDLC
+{
+
+imports
+	{
+		Base
+	}
+
+recipe Extract Crack Compound
+	{
+		DrugsDLC.EphedrineBottle=1,
+		DrugsDLC.AmmoniaBottle=1,
+		keep Pot=1,
+		NearItem:Oven,
+		Heat:-0.40,
+		Result:DrugsDLC.CrackCompound=5,
+		Time: 17.0,
+		Category: Drugs,
+		SkillRequired:Cooking=2,
+		Sound:BoilingDrugWater,
+		NeedToBeLearn:true,
+		AnimNode:Pour,
+	}
+
+recipe Dry and Pack the Crack
+	{
+		DrugsDLC.CrackCompound=5,
+		DrugsDLC.BolsaDeDroga=5,
+		Result:DrugsDLC.Crack=5,
+		Time: 20.0,
+		Category: Drugs,
+		Sound:DryDrugx,
+		CanBeDoneFromFloor:true,
+		NeedToBeLearn:true,
+	}
+
+
+recipe Add Crack To Pipe
+	{
+	   DrugsDLC.Crack,
+	   DrugsDLC.DrugPipe/Aluminum,
+	   Result: DrugsDLC.CrackPipe,
+	   Time: 60.0,
+	   Sound:DryDrugx,
+	   Category: Drugs,
+	}
+
+}

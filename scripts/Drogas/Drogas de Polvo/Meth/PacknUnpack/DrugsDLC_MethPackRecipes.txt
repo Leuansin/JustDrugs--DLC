@@ -1,0 +1,190 @@
+module DrugsDLC
+{
+imports
+	{
+		Base
+	}
+
+recipe Pack 5 Grams of Meth
+	{
+		DrugsDLC.Meth=5,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=1,
+		Aluminum=1,
+
+		Result:DrugsDLC.5MethPack=1,
+		Time: 5.0,
+		Category: Drugs,
+		Sound:PutItemInBag,
+		AnimNode:Pour,
+		CanBeDoneFromFloor:true,
+	}
+
+recipe Pack 10 Grams of Meth
+	{
+		DrugsDLC.5MethPack=2,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=1,
+		Aluminum=1,
+
+		Result:DrugsDLC.10MethPack,
+		Time: 10.0,
+		Category: Drugs,
+		AnimNode:Pour,
+		Sound:PutItemInBag,
+		CanBeDoneFromFloor:true,
+	}
+
+recipe Pack 10 Grams of Meth
+	{
+		DrugsDLC.Meth=10,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=1,
+		Aluminum=1,
+
+		Result:DrugsDLC.10MethPack,
+		Time: 10.0,
+		Category: Drugs,
+		Sound:PutItemInBag,
+		AnimNode:Pour,
+		CanBeDoneFromFloor:true,
+	}
+
+recipe Pack 20 Grams of Meth
+	{
+		DrugsDLC.Meth=20,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=2,
+		Aluminum=1,
+
+		Result:DrugsDLC.20MethPack,
+		Time: 5.0,
+		Category: Drugs,
+		Sound:PutItemInBag,
+		AnimNode:Pour,
+		CanBeDoneFromFloor:true,
+	}
+	
+recipe Pack 20 Grams of Meth
+	{
+		DrugsDLC.10MethPack=2,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=2,
+		Aluminum=1,
+
+		Result:DrugsDLC.20MethPack,
+		Time: 10.0,
+		Category: Drugs,
+		Sound:PutItemInBag,
+		AnimNode:Pour,
+		CanBeDoneFromFloor:true,
+	}
+
+recipe Pack 20 Grams of Meth
+	{
+		DrugsDLC.5MethPack=4,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=2,
+		Aluminum=1,
+
+		Result:DrugsDLC.20MethPack,
+		Time: 20.0,
+		Category: Drugs,
+		Sound:PutItemInBag,
+		AnimNode:Pour,
+		CanBeDoneFromFloor:true,
+	}
+
+recipe Pack 100 Grams of Meth
+	{
+		DrugsDLC.Meth=100,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=4,
+		Aluminum=2,
+
+		Result:DrugsDLC.100MethPack,
+		Time: 20.0,
+		Category: Drugs,
+		Sound:PutItemInBag,
+		AnimNode:Pour,
+		CanBeDoneFromFloor:true,
+	}
+
+recipe Pack 100 Grams of Meth
+	{
+		DrugsDLC.20MethPack=5,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=4,
+		Aluminum=2,
+
+		Result:DrugsDLC.100MethPack,
+		Time: 30.0,
+		Category: Drugs,
+		Sound:PutItemInBag,
+		AnimNode:Pour,
+		CanBeDoneFromFloor:true,
+	}
+
+recipe Pack 100 Grams of Meth
+	{
+		DrugsDLC.10MethPack=10,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=6,
+		Aluminum=2,
+
+		Result:DrugsDLC.100MethPack,
+		Time: 40.0,
+		Category: Drugs,
+		AnimNode:Pour,
+		Sound:PutItemInBag,
+		CanBeDoneFromFloor:true,
+	}
+
+recipe Pack 1kg of Meth
+	{
+		DrugsDLC.Meth=1000,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=4,
+		Aluminum=1,
+
+		Result:DrugsDLC.1000MethPack,
+		Time: 20.0,
+		Category: Drugs,
+		Sound:PutItemInBag,
+		AnimNode:Pour,
+		CanBeDoneFromFloor:true,
+	}
+
+recipe Pack 1kg of Meth
+	{
+		DrugsDLC.100MethPack=10,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=6,
+		Aluminum=1,
+
+		Result:DrugsDLC.1000MethPack,
+		Time: 50.0,
+		Category: Drugs,
+		AnimNode:Pour,
+		Sound:PutItemInBag,
+		CanBeDoneFromFloor:true,
+	}
+
+recipe Pack 1kg of Meth
+	{
+		DrugsDLC.20MethPack=50,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=15,
+		Aluminum=1,
+
+		Result:DrugsDLC.1000MethPack,
+		Time: 80.0,
+		Category: Drugs,
+		AnimNode:Pour,
+		Sound:PutItemInBag,
+		CanBeDoneFromFloor:true,
+	}
+
+recipe Pack 1kg of Meth
+	{
+		DrugsDLC.10MethPack=100,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=20,
+		Aluminum=1,
+
+		Result:DrugsDLC.1000MethPack,
+		Time: 120.0,
+		Category: Drugs,
+		AnimNode:Pour,
+		Sound:PutItemInBag,
+		CanBeDoneFromFloor:true,
+	}
+
+}

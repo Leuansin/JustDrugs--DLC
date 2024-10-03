@@ -1,0 +1,113 @@
+module DrugsDLC
+{
+imports
+	{
+		Base
+	}
+    
+recipe Unpack Package
+    {
+        DrugsDLC.5OxycodonePack=1,
+        Pills/PopBottleEmpty/WaterBottleEmpty/WhiskeyEmpty/WineEmpty/WineEmpty2/BeerEmpty=5,
+
+        Result:DrugsDLC.OxycodoneBottle=5,
+        Time: 5.0,
+        Category: Drugs,
+        Sound:PutItemInBag,
+        AnimNode: Loot,
+        CanBeDoneFromFloor:true,
+    }
+
+recipe Unpack Package
+    {
+        DrugsDLC.10OxycodonePack=1,
+        Pills/PopBottleEmpty/WaterBottleEmpty/WhiskeyEmpty/WineEmpty/WineEmpty2/BeerEmpty=10,
+
+        Result:DrugsDLC.OxycodoneBottle=10,
+        Time: 10.0,
+        Sound:PutItemInBag,
+        Category: Drugs,
+        AnimNode: Loot,
+        CanBeDoneFromFloor:true,
+    }
+
+recipe Unpack Package
+    {
+        DrugsDLC.20OxycodonePack=1,
+        Pills/PopBottleEmpty/WaterBottleEmpty/WhiskeyEmpty/WineEmpty/WineEmpty2/BeerEmpty=20,
+
+        Result:DrugsDLC.OxycodoneBottle=20,
+        Sound:PutItemInBag,
+        Time: 15.0,
+        Category: Drugs,
+        AnimNode: Loot,
+        CanBeDoneFromFloor:true,
+    }
+
+recipe Unpack Package
+    {
+        DrugsDLC.100OxycodonePack=1,
+        Pills/PopBottleEmpty/WaterBottleEmpty/WhiskeyEmpty/WineEmpty/WineEmpty2/BeerEmpty=100,
+
+        Result:DrugsDLC.OxycodoneBottle=100,
+        Time: 5.0,
+        Sound:PutItemInBag,
+        Category: Drugs,
+        AnimNode: Loot,
+        CanBeDoneFromFloor:true,
+    }
+
+-- Cambio de Unpackaging
+
+recipe Unpack Into Packages
+    {
+        DrugsDLC.10OxycodonePack=1,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=2,
+
+        Result:DrugsDLC.5OxycodonePack=2,
+        Time: 10.0,
+        Category: Drugs,
+        Sound:PutItemInBag,
+        AnimNode: Loot,
+        CanBeDoneFromFloor:true,
+    }
+
+recipe Unpack Into Packages
+    {
+        DrugsDLC.20OxycodonePack=1,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=2,
+        Result:DrugsDLC.10OxycodonePack=2,
+        Time: 20.0,
+        Category: Drugs,
+        AnimNode: Loot,
+        Sound:PutItemInBag,
+        CanBeDoneFromFloor:true,
+    }
+
+recipe Unpack Into Packages
+    {
+        DrugsDLC.100OxycodonePack=1,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=5,
+
+        Result:DrugsDLC.20OxycodonePack=5,
+        Time: 50.0,
+        Category: Drugs,
+        AnimNode: Loot,
+        Sound:PutItemInBag,
+        CanBeDoneFromFloor:true,
+    }
+
+recipe Unpack Into Packages
+    {
+        DrugsDLC.1000OxycodonePack=1,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=6,
+
+        Result:DrugsDLC.100OxycodonePack=10,
+        Time: 100.0,
+        Category: Drugs,
+        AnimNode: Loot,
+        CanBeDoneFromFloor:true,
+        Sound:PutItemInBag,
+    }
+
+}

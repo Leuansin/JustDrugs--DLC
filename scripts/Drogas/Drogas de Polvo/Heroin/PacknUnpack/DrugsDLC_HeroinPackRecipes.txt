@@ -1,0 +1,190 @@
+module DrugsDLC
+{
+imports
+	{
+		Base
+	}
+
+recipe Pack 5 Grams of Heroin
+	{
+		DrugsDLC.Heroin=5,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=1,
+		Aluminum=1,
+
+		Result:DrugsDLC.5HeroinPack=1,
+		Time: 5.0,
+		Category: Drugs,
+		Sound:PutItemInBag,
+		AnimNode:Pour,
+		CanBeDoneFromFloor:true,
+	}
+
+recipe Pack 10 Grams of Heroin
+	{
+		DrugsDLC.5HeroinPack=2,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=1,
+		Aluminum=1,
+
+		Result:DrugsDLC.10HeroinPack,
+		Time: 10.0,
+		Category: Drugs,
+		AnimNode:Pour,
+		CanBeDoneFromFloor:true,
+		Sound:PutItemInBag,
+	}
+
+recipe Pack 10 Grams of Heroin
+	{
+		DrugsDLC.Heroin=10,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=1,
+		Aluminum=1,
+
+		Result:DrugsDLC.10HeroinPack,
+		Time: 10.0,
+		Category: Drugs,
+		Sound:PutItemInBag,
+		AnimNode:Pour,
+		CanBeDoneFromFloor:true,
+	}
+
+recipe Pack 20 Grams of Heroin
+	{
+		DrugsDLC.Heroin=20,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=2,
+		Aluminum=1,
+
+		Result:DrugsDLC.20HeroinPack,
+		Time: 5.0,
+		Category: Drugs,
+		AnimNode:Pour,
+		Sound:PutItemInBag,
+		CanBeDoneFromFloor:true,
+	}
+	
+recipe Pack 20 Grams of Heroin
+	{
+		DrugsDLC.10HeroinPack=2,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=2,
+		Aluminum=1,
+
+		Result:DrugsDLC.20HeroinPack,
+		Time: 10.0,
+		Category: Drugs,
+		Sound:PutItemInBag,
+		AnimNode:Pour,
+		CanBeDoneFromFloor:true,
+	}
+
+recipe Pack 20 Grams of Heroin
+	{
+		DrugsDLC.5HeroinPack=4,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=2,
+		Aluminum=1,
+
+		Result:DrugsDLC.20HeroinPack,
+		Time: 20.0,
+		Sound:PutItemInBag,
+		Category: Drugs,
+		AnimNode:Pour,
+		CanBeDoneFromFloor:true,
+	}
+
+recipe Pack 100 Grams of Heroin
+	{
+		DrugsDLC.Heroin=100,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=4,
+		Aluminum=2,
+
+		Result:DrugsDLC.100HeroinPack,
+		Time: 20.0,
+		Sound:PutItemInBag,
+		Category: Drugs,
+		AnimNode:Pour,
+		CanBeDoneFromFloor:true,
+	}
+
+recipe Pack 100 Grams of Heroin
+	{
+		DrugsDLC.20HeroinPack=5,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=4,
+		Aluminum=2,
+
+		Result:DrugsDLC.100HeroinPack,
+		Time: 30.0,
+		Sound:PutItemInBag,
+		Category: Drugs,
+		AnimNode:Pour,
+		CanBeDoneFromFloor:true,
+	}
+
+recipe Pack 100 Grams of Heroin
+	{
+		DrugsDLC.10HeroinPack=10,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=6,
+		Aluminum=2,
+
+		Result:DrugsDLC.100HeroinPack,
+		Time: 40.0,
+		Category: Drugs,
+		AnimNode:Pour,
+		Sound:PutItemInBag,
+		CanBeDoneFromFloor:true,
+	}
+
+recipe Pack 1kg of Heroin
+	{
+		DrugsDLC.Heroin=1000,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=4,
+		Aluminum=1,
+
+		Result:DrugsDLC.1000HeroinPack,
+		Time: 20.0,
+		Category: Drugs,
+		Sound:PutItemInBag,
+		AnimNode:Pour,
+		CanBeDoneFromFloor:true,
+	}
+
+recipe Pack 1kg of Heroin
+	{
+		DrugsDLC.100HeroinPack=10,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=6,
+		Aluminum=1,
+
+		Result:DrugsDLC.1000HeroinPack,
+		Time: 50.0,
+		Sound:PutItemInBag,
+		Category: Drugs,
+		AnimNode:Pour,
+		CanBeDoneFromFloor:true,
+	}
+
+recipe Pack 1kg of Heroin
+	{
+		DrugsDLC.20HeroinPack=50,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=15,
+		Aluminum=1,
+
+		Result:DrugsDLC.1000HeroinPack,
+		Sound:PutItemInBag,
+		Time: 80.0,
+		Category: Drugs,
+		AnimNode:Pour,
+		CanBeDoneFromFloor:true,
+	}
+
+recipe Pack 1kg of Heroin
+	{
+		DrugsDLC.10HeroinPack=100,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=20,
+		Aluminum=1,
+
+		Result:DrugsDLC.1000HeroinPack,
+		Time: 120.0,
+		Category: Drugs,
+		AnimNode:Pour,
+		Sound:PutItemInBag,
+		CanBeDoneFromFloor:true,
+	}
+
+}

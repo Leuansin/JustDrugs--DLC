@@ -1,0 +1,23 @@
+Tooltip_DA = {
+Tooltip_Meth = "Stærkt stof. Kan forårsage abstinenser.",
+Tooltip_Crack = "Stærkt stof. Kan forårsage abstinenser.",
+Tooltip_Heroin = "Stærkt stof. Kan forårsage abstinenser.",
+Tooltip_DrugPipe = "Put hvad som helst i, tænd den og inhalér. Du skal måske bruge noget at tænde den med.",
+Tooltip_Needle = "Du kan injicere heroin med denne. Kan forårsage abstinenser.",
+Tooltip_Blockcocaine = "En tung pakke. Kan pakkes ud.",
+Tooltip_BagShrooms = "Åbn den for at finde en masse svampe.",
+Tooltip_MethPipe = "Tænd den for at blive høj på meth. Kan forårsage abstinenser.",
+Tooltip_CrackPipe = "Tænd den for at blive høj på meth. Kan forårsage abstinenser.",
+Tooltip_Cocaine = "Sniffe det og føl, at verden er din. Kan forårsage abstinenser.",
+Tooltip_HeroinNeedle = "Injicér heroin og nyd det. Kan forårsage abstinenser.",
+Tooltip_Amphetamines = "Sniffe amfetaminer for at føle dig som en gud. Kan forårsage abstinenser.",
+Tooltip_Xanax = "Tag nogle piller for at få det bedre. Kan forårsage forgiftning.",
+Tooltip_Fentanyl = "Sniffe fentanyl for at glemme problemerne med zombierne. Kan forårsage utilpashed.",
+Tooltip_Acid = "Slug det for at tage på en syretrip. Kan forårsage abstinenser.",
+Tooltip_Shrooms = "Det ser ud til, at du kan lide at tænke anderledes. Det er fint. Ingen abstinenser eller forgiftning.",
+Tooltip_RefinedCoca = "Kan tørres for at få kokain.",
+Tooltip_Loperamide = "Hjælper med madforgiftning, nyttig til forgiftninger.",
+Tooltip_Narcan = "S.O.S for overdosis af stoffer, brug med forsigtighed.",
+Tooltip_Bismuth = "Hjælper med madforgiftning, nyttig til forgiftninger.",
+
+}

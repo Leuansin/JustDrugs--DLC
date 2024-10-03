@@ -1,0 +1,49 @@
+module DrugsDLC
+{
+
+imports
+	{
+		Base
+	}
+
+recipe Take Pills Out
+{
+	DrugsDLC.AcetaminophenBottle=1,
+	Result:DrugsDLC.Acetaminophen=12,
+	Time: 2.0,
+	Category: Drugs,
+	Sound: shakepills,
+	AnimNode:Pour,
+}
+
+recipe Take Pills Out
+{
+	DrugsDLC.ParacetamolBox=1,
+	Result:DrugsDLC.Paracetamol=12,
+	Time: 2.0,
+	Category: Drugs,
+	Sound: shakepills,
+	AnimNode:Pour,
+}
+
+recipe Take Pills Out
+{
+	DrugsDLC.TylenolBox=1,
+	Result:DrugsDLC.Tylenol=12,
+	Time: 2.0,
+	Category: Drugs,
+	Sound: shakepills,
+	AnimNode:Pour,
+}
+
+recipe Take Pills Out
+{
+	DrugsDLC.PanadolBox=1,
+	Result:DrugsDLC.Panadol=12,
+	Time: 2.0,
+	Category: Drugs,
+	Sound: shakepills,
+	AnimNode:Pour,
+}
+
+}

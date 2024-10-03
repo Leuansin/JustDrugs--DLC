@@ -1,0 +1,67 @@
+module DrugsDLC
+{
+imports
+	{
+		Base
+	}
+
+item 5CodeinePack
+	{
+		Weight		      =	0.05,
+		Type		      =	Normal,
+		DisplayName	      =	Pack of Codeine (5),
+        DisplayCategory   = Drugs,
+		Icon		      = TinyPacks,
+		WorldStaticModel  = DrugBrick,
+		Tooltip 		  = Tooltip_Blockcocaine,
+        Count             = 1,
+	}
+
+item 10CodeinePack
+	{
+		Weight		      =	0.1,
+		Type		      =	Normal,
+		DisplayName	      =	Pack of Codeine (10),
+        DisplayCategory   = Drugs,
+		Icon		      = TinyPacks,
+		WorldStaticModel  = DrugBrick,
+		Tooltip 		  = Tooltip_Blockcocaine,
+        Count             = 1,
+	}
+
+item 20CodeinePack
+	{
+		Weight		      =	0.2,
+		Type		      =	Normal,
+		DisplayName	      =	Pack of Codeine (20),
+        DisplayCategory   = Drugs,
+		Icon		      = DrugBricks,
+		WorldStaticModel  = DrugBrick,
+		Tooltip 		  = Tooltip_Blockcocaine,
+        Count             = 1,
+	}
+
+item 100CodeinePack
+	{
+		Weight		      =	1,
+		Type		      =	Normal,
+		DisplayName	      =	Big Pack of Codeine,
+        DisplayCategory   = Drugs,
+		Icon		      = DrugBricks,
+		WorldStaticModel  = DrugBrick,
+		Tooltip 		  = Tooltip_Blockcocaine,
+        Count             = 1,
+	}
+
+item 1000CodeinePack
+	{
+		Weight		      =	10,
+		Type		      =	Normal,
+		DisplayName	      =	Huge Pack of Codeine,
+        DisplayCategory   = Drugs,
+		Icon		      = BlockCocaine,
+		WorldStaticModel  = DrugBrick,
+		Tooltip 		  = Tooltip_Blockcocaine,
+        Count             = 1,
+	}
+}

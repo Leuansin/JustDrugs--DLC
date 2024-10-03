@@ -1,0 +1,113 @@
+module DrugsDLC
+{
+imports
+	{
+		Base
+	}
+    
+recipe Unpack Package
+    {
+        DrugsDLC.5AdderallPack=1,
+        Pills/PopBottleEmpty/WaterBottleEmpty/WhiskeyEmpty/WineEmpty/WineEmpty2/BeerEmpty=5,
+
+        Result:DrugsDLC.Adderall=5,
+        Time: 5.0,
+        Category: Drugs,
+        Sound:PutItemInBag,
+        AnimNode: Loot,
+        CanBeDoneFromFloor:true,
+    }
+
+recipe Unpack Package
+    {
+        DrugsDLC.10AdderallPack=1,
+        Pills/PopBottleEmpty/WaterBottleEmpty/WhiskeyEmpty/WineEmpty/WineEmpty2/BeerEmpty=10,
+
+        Result:DrugsDLC.Adderall=10,
+        Time: 10.0,
+        Sound:PutItemInBag,
+        Category: Drugs,
+        AnimNode: Loot,
+        CanBeDoneFromFloor:true,
+    }
+
+recipe Unpack Package
+    {
+        DrugsDLC.20AdderallPack=1,
+        Pills/PopBottleEmpty/WaterBottleEmpty/WhiskeyEmpty/WineEmpty/WineEmpty2/BeerEmpty=20,
+
+        Result:DrugsDLC.Adderall=20,
+        Sound:PutItemInBag,
+        Time: 15.0,
+        Category: Drugs,
+        AnimNode: Loot,
+        CanBeDoneFromFloor:true,
+    }
+
+recipe Unpack Package
+    {
+        DrugsDLC.100AdderallPack=1,
+        Pills/PopBottleEmpty/WaterBottleEmpty/WhiskeyEmpty/WineEmpty/WineEmpty2/BeerEmpty=100,
+
+        Result:DrugsDLC.Adderall=100,
+        Time: 5.0,
+        Sound:PutItemInBag,
+        Category: Drugs,
+        AnimNode: Loot,
+        CanBeDoneFromFloor:true,
+    }
+
+-- Cambio de Unpackaging
+
+recipe Unpack Into Packages
+    {
+        DrugsDLC.10AdderallPack=1,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=2,
+
+        Result:DrugsDLC.5AdderallPack=2,
+        Time: 10.0,
+        Category: Drugs,
+        Sound:PutItemInBag,
+        AnimNode: Loot,
+        CanBeDoneFromFloor:true,
+    }
+
+recipe Unpack Into Packages
+    {
+        DrugsDLC.20AdderallPack=1,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=2,
+        Result:DrugsDLC.10AdderallPack=2,
+        Time: 20.0,
+        Category: Drugs,
+        AnimNode: Loot,
+        Sound:PutItemInBag,
+        CanBeDoneFromFloor:true,
+    }
+
+recipe Unpack Into Packages
+    {
+        DrugsDLC.100AdderallPack=1,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=5,
+
+        Result:DrugsDLC.20AdderallPack=5,
+        Time: 50.0,
+        Category: Drugs,
+        AnimNode: Loot,
+        Sound:PutItemInBag,
+        CanBeDoneFromFloor:true,
+    }
+
+recipe Unpack Into Packages
+    {
+        DrugsDLC.1000AdderallPack=1,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=6,
+
+        Result:DrugsDLC.100AdderallPack=10,
+        Time: 100.0,
+        Category: Drugs,
+        AnimNode: Loot,
+        CanBeDoneFromFloor:true,
+        Sound:PutItemInBag,
+    }
+
+}

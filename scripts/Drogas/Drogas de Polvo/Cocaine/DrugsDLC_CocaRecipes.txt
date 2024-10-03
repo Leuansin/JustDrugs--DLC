@@ -1,0 +1,67 @@
+module DrugsDLC
+{
+
+imports
+	{
+		Base
+	}
+
+recipe Make Raw Cocaine Compound
+	{
+		Pills=1,
+		DrugsDLC.AmmoniaBottle=1,
+		DrugsDLC.EphedrineBottle=1,
+		DrugsDLC.PhenyBottle=1,
+		DrugsDLC.IodoricAcidBottle=1,
+		DrugsDLC.PotassiumBottle=1,
+		keep Pot=1,
+		NearItem:Oven,
+		Heat:-0.40,
+
+		Result:DrugsDLC.CocaCompound=30,
+		Time: 30.0,
+		Category: Drugs,
+		Sound:BoilingDrugWater,
+		SkillRequired:Cooking=2,
+		NeedToBeLearn:true,
+		AnimNode:Pour,
+	}
+
+recipe Refine Cocaine Compound
+	{
+		DrugsDLC.CocaCompound=7,
+		DrugsDLC.PhenyCompound=2,
+		DrugsDLC.MethCompound=3,
+		keep Pot=1,
+
+		Result:DrugsDLC.RefinedCoca=8,
+		Time: 8.0,
+		Category: Drugs,
+		Sound:BoilingDrugWater,
+		SkillRequired:Cooking=2,
+		NeedToBeLearn:true,
+		AnimNode:Pour,
+	}
+
+recipe Dry Refined Cocaine
+	{
+		DrugsDLC.RefinedCoca=6,
+		DrugsDLC.BolsaDeDroga=10,
+
+		Result:DrugsDLC.Cocaine=10,
+		Time: 10.0,
+		Category: Drugs,
+		Sound:DryDrugx,
+		CanBeDoneFromFloor:true,
+		NeedToBeLearn:true,
+	}
+
+recipe Open Cocaine Brick
+	{
+	   DrugsDLC.Blockcocaine,
+	   Result:DrugsDLC.Cocaine=20,
+	   Sound:PutItemInBag,
+	   Time:600.0,
+	   Category:Drugs,
+	}
+}

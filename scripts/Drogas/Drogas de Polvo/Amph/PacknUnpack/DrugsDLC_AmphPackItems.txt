@@ -1,0 +1,67 @@
+module DrugsDLC
+{
+imports
+	{
+		Base
+	}
+
+item 5AmphetaminesPack
+	{
+		Weight		      =	0.05,
+		Type		      =	Normal,
+		DisplayName	      =	Pack of Amphetamines (5G),
+        DisplayCategory   = Drugs,
+		Icon		      = TinyPacks,
+		WorldStaticModel  = DrugBrick,
+		Tooltip 		  = Tooltip_Blockcocaine,
+        Count             = 1,
+	}
+
+item 10AmphetaminesPack
+	{
+		Weight		      =	0.1,
+		Type		      =	Normal,
+		DisplayName	      =	Pack of Amphetamines (10G),
+        DisplayCategory   = Drugs,
+		Icon		      = TinyPacks,
+		WorldStaticModel  = DrugBrick,
+		Tooltip 		  = Tooltip_Blockcocaine,
+        Count             = 1,
+	}
+
+item 20AmphetaminesPack
+	{
+		Weight		      =	0.2,
+		Type		      =	Normal,
+		DisplayName	      =	Pack of Amphetamines (20G),
+        DisplayCategory   = Drugs,
+		Icon		      = DrugBricks,
+		WorldStaticModel  = DrugBrick,
+		Tooltip 		  = Tooltip_Blockcocaine,
+        Count             = 1,
+	}
+
+item 100AmphetaminesPack
+	{
+		Weight		      =	1,
+		Type		      =	Normal,
+		DisplayName	      =	Big Pack of Amphetamines,
+        DisplayCategory   = Drugs,
+		Icon		      = DrugBricks,
+		WorldStaticModel  = DrugBrick,
+		Tooltip 		  = Tooltip_Blockcocaine,
+        Count             = 1,
+	}
+
+item 1000AmphetaminesPack
+	{
+		Weight		      =	10,
+		Type		      =	Normal,
+		DisplayName	      =	Huge Pack of Amphetamines,
+        DisplayCategory   = Drugs,
+		Icon		      = BlockCocaine,
+		WorldStaticModel  = DrugBrick,
+		Tooltip 		  = Tooltip_Blockcocaine,
+        Count             = 1,
+	}
+}

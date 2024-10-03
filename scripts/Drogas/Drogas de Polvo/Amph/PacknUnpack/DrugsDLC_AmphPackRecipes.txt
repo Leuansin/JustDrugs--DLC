@@ -1,0 +1,190 @@
+module DrugsDLC
+{
+imports
+	{
+		Base
+	}
+
+recipe Pack 5 Grams of Amphetamines
+	{
+		DrugsDLC.Amphetamines=5,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=1,
+		Aluminum=1,
+
+		Result:DrugsDLC.5AmphetaminesPack=1,
+		Time: 5.0,
+		Category: Drugs,
+		Sound:PutItemInBag,
+		AnimNode:Pour,
+		CanBeDoneFromFloor:true,
+	}
+
+recipe Pack 10 Grams of Amphetamines
+	{
+		DrugsDLC.5AmphetaminesPack=2,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=1,
+		Aluminum=1,
+
+		Result:DrugsDLC.10AmphetaminesPack,
+		Time: 10.0,
+		Category: Drugs,
+		Sound:PutItemInBag,
+		AnimNode:Pour,
+		CanBeDoneFromFloor:true,
+	}
+
+recipe Pack 10 Grams of Amphetamines
+	{
+		DrugsDLC.Amphetamines=10,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=1,
+		Aluminum=1,
+
+		Result:DrugsDLC.10AmphetaminesPack,
+		Time: 10.0,
+		Sound:PutItemInBag,
+		Category: Drugs,
+		AnimNode:Pour,
+		CanBeDoneFromFloor:true,
+	}
+
+recipe Pack 20 Grams of Amphetamines
+	{
+		DrugsDLC.Amphetamines=20,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=2,
+		Aluminum=1,
+
+		Result:DrugsDLC.20AmphetaminesPack,
+		Time: 5.0,
+		Category: Drugs,
+		AnimNode:Pour,
+		Sound:PutItemInBag,
+		CanBeDoneFromFloor:true,
+	}
+	
+recipe Pack 20 Grams of Amphetamines
+	{
+		DrugsDLC.10AmphetaminesPack=2,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=2,
+		Aluminum=1,
+
+		Result:DrugsDLC.20AmphetaminesPack,
+		Time: 10.0,
+		Category: Drugs,
+		Sound:PutItemInBag,
+		AnimNode:Pour,
+		CanBeDoneFromFloor:true,
+	}
+
+recipe Pack 20 Grams of Amphetamines
+	{
+		DrugsDLC.5AmphetaminesPack=4,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=2,
+		Aluminum=1,
+
+		Result:DrugsDLC.20AmphetaminesPack,
+		Time: 20.0,
+		Category: Drugs,
+		Sound:PutItemInBag,
+		AnimNode:Pour,
+		CanBeDoneFromFloor:true,
+	}
+
+recipe Pack 100 Grams of Amphetamines
+	{
+		DrugsDLC.Amphetamines=100,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=4,
+		Aluminum=2,
+
+		Result:DrugsDLC.100AmphetaminesPack,
+		Time: 20.0,
+		Category: Drugs,
+		Sound:PutItemInBag,
+		AnimNode:Pour,
+		CanBeDoneFromFloor:true,
+	}
+
+recipe Pack 100 Grams of Amphetamines
+	{
+		DrugsDLC.20AmphetaminesPack=5,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=4,
+		Aluminum=2,
+
+		Result:DrugsDLC.100AmphetaminesPack,
+		Time: 30.0,
+		Category: Drugs,
+		AnimNode:Pour,
+		Sound:PutItemInBag,
+		CanBeDoneFromFloor:true,
+	}
+
+recipe Pack 100 Grams of Amphetamines
+	{
+		DrugsDLC.10AmphetaminesPack=10,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=6,
+		Aluminum=2,
+
+		Result:DrugsDLC.100AmphetaminesPack,
+		Time: 40.0,
+		Category: Drugs,
+		AnimNode:Pour,
+		Sound:PutItemInBag,
+		CanBeDoneFromFloor:true,
+	}
+
+recipe Pack 1kg of Amphetamines
+	{
+		DrugsDLC.Amphetamines=1000,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=4,
+		Aluminum=1,
+
+		Result:DrugsDLC.1000AmphetaminesPack,
+		Time: 20.0,
+		Sound:PutItemInBag,
+		Category: Drugs,
+		AnimNode:Pour,
+		CanBeDoneFromFloor:true,
+	}
+
+recipe Pack 1kg of Amphetamines
+	{
+		DrugsDLC.100AmphetaminesPack=10,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=6,
+		Aluminum=1,
+
+		Result:DrugsDLC.1000AmphetaminesPack,
+		Time: 50.0,
+		Sound:PutItemInBag,
+		Category: Drugs,
+		AnimNode:Pour,
+		CanBeDoneFromFloor:true,
+	}
+
+recipe Pack 1kg of Amphetamines
+	{
+		DrugsDLC.20AmphetaminesPack=50,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=15,
+		Aluminum=1,
+
+		Result:DrugsDLC.1000AmphetaminesPack,
+		Time: 80.0,
+		Category: Drugs,
+		AnimNode:Pour,
+		Sound:PutItemInBag,
+		CanBeDoneFromFloor:true,
+	}
+
+recipe Pack 1kg of Amphetamines
+	{
+		DrugsDLC.10AmphetaminesPack=100,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=20,
+		Aluminum=1,
+
+		Result:DrugsDLC.1000AmphetaminesPack,
+		Time: 120.0,
+		Category: Drugs,
+		Sound:PutItemInBag,
+		AnimNode:Pour,
+		CanBeDoneFromFloor:true,
+	}
+
+}

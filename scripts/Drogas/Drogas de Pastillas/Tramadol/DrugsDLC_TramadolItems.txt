@@ -1,0 +1,57 @@
+module DrugsDLC
+{
+imports
+	{
+		Base
+	}
+
+item TramadolLibro
+	{
+		Weight			  = 0.3,
+		Type		      =	Literature,
+		DisplayName	      =	Chemistry 101: Tramadol,
+        DisplayCategory   = Drugs,
+		Icon		      =	Book,
+		WorldStaticModel  = BookGrey,
+		BoredomChange	  = -50,
+		ColorRed 		  = 228,
+		StressChange	  = -15,
+		NumberOfPages 	  = 420,
+		Count 			  = 1,
+		TeachedRecipes 	  = Make Tramadol Compound;Make Tramadol,
+	}
+
+item TramadolBox
+{
+	    Weight              = 0.1,
+        Type                = Normal,
+        DisplayName         = Box of Tramadol,
+        DisplayCategory     = Drugs,
+        Icon                = TramadolBox,
+        WorldStaticModel 	= Vitamins_Ground,
+		Tooltip 		    = Tooltip_BottleDrugs,
+}
+
+item Tramadol
+    {
+        DisplayName                 = Tramadol,
+        DisplayCategory             = Drugs,
+		Type						= Food,
+        Medical						= true,
+        Weight                      = 0.1,
+        Icon                        = Pastillitas,
+        Packaged                    = FALSE,
+		PainReduction 				= 100,
+		FatigueChange 				= 27,
+		StressChange				= -50,
+		ReduceInfectionPower     	= 12, 
+		Poison						= true,
+		PoisonPower					= 4,
+		UseDelta 					= 0.1,
+        CustomContextMenu           = Take Pill,
+		CustomEatSound              = shakepills,
+        WorldStaticModel 			= PastillitaWSM,
+		Tooltip 					= Tooltip_Tramadol,
+    }
+
+}

@@ -1,0 +1,50 @@
+module DrugsDLC
+{
+
+imports
+	{
+		Base
+	}
+
+recipe Take Pills Out
+{
+	DrugsDLC.CodeineBottle=1,
+	Result:DrugsDLC.Codeine=12,
+	Time: 2.0,
+	Category: Drugs,
+	Sound: shakepills,
+	AnimNode:Pour,
+}
+
+recipe Make Codeine Compound
+	{
+		DrugsDLC.MorphineCompound=1,
+		DrugsDLC.OxycodoneCompound=1,
+		DrugsDLC.XanaxCompound=1,
+		keep Pot=1,
+		NearItem:Oven,
+		Heat:-0.40,
+
+		Result:DrugsDLC.CodeineCompound=6,
+		Time: 17.0,
+		Category: Drugs,
+		SkillRequired:Cooking=2,
+		Sound:BoilingDrugWater,
+		NeedToBeLearn:true,
+		AnimNode:Pour,
+	}
+
+recipe Make Codeine
+	{
+		DrugsDLC.CodeineCompound=12,
+		Pills/PopBottleEmpty/WaterBottleEmpty/WhiskeyEmpty/WineEmpty/WineEmpty2/BeerEmpty=1,
+
+		Result:DrugsDLC.CodeineBottle=1,
+		Time: 20.0,
+		Category: Drugs,
+		Sound:DryDrugx,
+		CanBeDoneFromFloor:true,
+		NeedToBeLearn:true,
+	}
+
+}

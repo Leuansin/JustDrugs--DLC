@@ -1,0 +1,37 @@
+module DrugsDLC
+{
+
+imports
+	{
+		Base
+	}
+
+recipe Make Amphetamine Salts
+	{
+		DrugsDLC.PhenyCompound=3,
+		DrugsDLC.EthanolBottle=1,
+		keep Pot=1,
+		NearItem:Oven,
+		Heat:-0.40,
+		Result:DrugsDLC.AmphSales=7,
+		Time: 60.0,
+		Category: Drugs,
+		Sound:BoilingDrugWater,
+		SkillRequired:Cooking=2,
+		NeedToBeLearn:true,
+		AnimNode:Pour,
+	}
+
+recipe Dry Amphetamine Sales
+	{
+		DrugsDLC.AmphSales=6,
+		DrugsDLC.BolsaDeDroga=6,
+		Result:DrugsDLC.Amphetamines=4,
+		Time: 20.0,
+		Sound:DryDrugx,
+		Category: Drugs,
+		CanBeDoneFromFloor:true,
+		NeedToBeLearn:true,
+	}
+
+}

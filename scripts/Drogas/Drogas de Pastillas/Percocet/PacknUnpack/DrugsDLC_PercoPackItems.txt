@@ -1,0 +1,67 @@
+module DrugsDLC
+{
+imports
+	{
+		Base
+	}
+
+item 5PercocetPack
+	{
+		Weight		      =	0.05,
+		Type		      =	Normal,
+		DisplayName	      =	Pack of Percocet (5),
+        DisplayCategory   = Drugs,
+		Icon		      = TinyPacks,
+		WorldStaticModel  = DrugBrick,
+		Tooltip 		  = Tooltip_Blockcocaine,
+        Count             = 1,
+	}
+
+item 10PercocetPack
+	{
+		Weight		      =	0.1,
+		Type		      =	Normal,
+		DisplayName	      =	Pack of Percocet (10),
+        DisplayCategory   = Drugs,
+		Icon		      = TinyPacks,
+		WorldStaticModel  = DrugBrick,
+		Tooltip 		  = Tooltip_Blockcocaine,
+        Count             = 1,
+	}
+
+item 20PercocetPack
+	{
+		Weight		      =	0.2,
+		Type		      =	Normal,
+		DisplayName	      =	Pack of Percocet (20),
+        DisplayCategory   = Drugs,
+		Icon		      = DrugBricks,
+		WorldStaticModel  = DrugBrick,
+		Tooltip 		  = Tooltip_Blockcocaine,
+        Count             = 1,
+	}
+
+item 100PercocetPack
+	{
+		Weight		      =	1,
+		Type		      =	Normal,
+		DisplayName	      =	Big Pack of Percocet,
+        DisplayCategory   = Drugs,
+		Icon		      = DrugBricks,
+		WorldStaticModel  = DrugBrick,
+		Tooltip 		  = Tooltip_Blockcocaine,
+        Count             = 1,
+	}
+
+item 1000PercocetPack
+	{
+		Weight		      =	10,
+		Type		      =	Normal,
+		DisplayName	      =	Huge Pack of Percocet,
+        DisplayCategory   = Drugs,
+		Icon		      = BlockCocaine,
+		WorldStaticModel  = DrugBrick,
+		Tooltip 		  = Tooltip_Blockcocaine,
+        Count             = 1,
+	}
+}

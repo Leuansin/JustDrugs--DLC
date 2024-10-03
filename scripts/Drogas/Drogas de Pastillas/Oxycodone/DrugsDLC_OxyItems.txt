@@ -1,0 +1,58 @@
+module DrugsDLC
+{
+imports
+	{
+		Base
+	}
+
+item OxyLibro
+	{
+		Weight			  = 0.3,
+		Type		      =	Literature,
+		DisplayName	      =	Chemistry 101: Oxycodone,
+        DisplayCategory   = Drugs,
+		Icon		      =	Book,
+		WorldStaticModel  = BookGrey,
+		BoredomChange	  = -50,
+		ColorRed 		  = 228,
+		StressChange	  = -15,
+		NumberOfPages 	  = 420,
+		Count 			  = 1,
+		TeachedRecipes 	  = Make Oxycodone Compound;Make Oxycodone,
+	}
+
+item OxycodoneBottle
+{
+	    Weight              = 0.1,
+        Type                = Normal,
+        DisplayName         = Bottle of Oxycodone,
+        DisplayCategory     = Drugs,
+        Icon                = OxycodoneBottle,
+        WorldStaticModel 	= Vitamins_Ground,
+		Tooltip 		    = Tooltip_BottleDrugs,
+}
+
+item Oxycodone
+    {
+        DisplayName                 = Oxycodone,
+        DisplayCategory             = Drugs,
+		Type						= Food,
+        Medical						= true,
+        Weight                      = 0.1,
+        Icon                        = Pastillitas,
+        Packaged                    = FALSE,
+		BoredomChange				= -20,
+		PainReduction 				= 30,
+		UnhappyChange				= -10,
+		FatigueChange 				= 30,
+		StressChange				= -10,
+		ReduceInfectionPower     	= 12, 
+		Poison						= true,
+		PoisonPower					= 1,
+		UseDelta 					= 0.1,
+        CustomContextMenu           = Take Pill,
+		CustomEatSound              = shakepills,
+        WorldStaticModel 			= PastillitaWSM,
+		Tooltip 					= Tooltip_Oxycodone,
+    }
+}

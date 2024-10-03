@@ -1,0 +1,22 @@
+Tooltip_IT = {
+Tooltip_Meth = "Droga forte. Può causare dipendenza.",
+Tooltip_Crack = "Droga forte. Può causare dipendenza.",
+Tooltip_Heroin = "Droga forte. Può causare dipendenza.",
+Tooltip_DrugPipe = "Basta mettere qualcosa, accenderlo e inalare. Potrebbe essere necessario qualcosa per accenderlo.",
+Tooltip_Needle = "Puoi iniettarti eroina con questo. Può causare dipendenza.",
+Tooltip_Blockcocaine = "Un pacco pesante. Può essere aperto.",
+Tooltip_BagShrooms = "Aprilo per trovare molti funghi.",
+Tooltip_MethPipe = "Accendilo per sballarti molto con la metanfetamina. Può causare dipendenza.",
+Tooltip_CrackPipe = "Accendilo per sballarti molto con la metanfetamina. Può causare dipendenza.",
+Tooltip_Cocaine = "Inalalo per sentirti il padrone del mondo. Può causare dipendenza.",
+Tooltip_HeroinNeedle = "Iniettati eroina e goditela. Può causare dipendenza.",
+Tooltip_Amphetamines = "Inala anfetamine per sentirti un dio. Può causare dipendenza.",
+Tooltip_Xanax = "Prendi alcune pillole per sentirti meglio. Può causare intossicazione.",
+Tooltip_Fentanyl = "Inala fentanyl per dimenticare i problemi con gli zombi. Può causare malessere.",
+Tooltip_Acid = "Ingoialo per fare un viaggio con l'acido. Può causare dipendenza.",
+Tooltip_Shrooms = "Sembra che ti piaccia pensare diversamente. Va bene",
+Tooltip_Loperamide = "Aiuta con l'intossicazione alimentare, utile per avvelenamenti.",
+Tooltip_Narcan = "S.O.S per overdose da droga, usare con cautela.",
+Tooltip_Bismuth = "Aiuta con l'intossicazione alimentare, utile per avvelenamenti.",
+
+}

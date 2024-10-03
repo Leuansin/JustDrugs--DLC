@@ -1,0 +1,41 @@
+module DrugsDLC
+{
+imports
+	{
+		Base
+	}
+
+item IbuprofenBox
+{
+	    Weight              = 0.1,
+        Type                = Normal,
+        DisplayName         = Box of Ibuprofen 600mg,
+        DisplayCategory     = Drugs,
+        Icon                = IbuprofenBottle,
+        WorldStaticModel 	= Vitamins_Ground,
+		Tooltip 		    = Tooltip_BottleDrugs,
+}
+
+item Ibuprofen
+    {
+        DisplayName                 = Ibuprofen,
+        DisplayCategory             = Drugs,
+		Type						= Food,
+        Medical						= true,
+        Weight                      = 0.1,
+        Icon                        = Pastillitas,
+        Packaged                    = FALSE,
+		PainReduction 				= 10,
+		FatigueChange 				= 1,
+		StressChange				= -6,
+		ReduceInfectionPower     	= 12, 
+		Poison						= true,
+		PoisonPower					= 0.1,
+		UseDelta 					= 0.1,
+        CustomContextMenu           = Take Pill,
+		CustomEatSound              = shakepills,
+        WorldStaticModel 			= PastillitaWSM,
+		Tooltip 					= Tooltip_Acetaminophen,
+    }
+
+}

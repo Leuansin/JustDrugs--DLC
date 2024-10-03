@@ -1,0 +1,53 @@
+module DrugsDLC
+{
+
+imports
+	{
+		Base
+	}
+
+recipe Make Acid Base
+	{
+		DrugsDLC.PhenyBottle=1,
+		DrugsDLC.PotassiumBottle=1,
+		keep Pot=1,
+		NearItem:Oven,
+		Heat:-0.20,
+		
+		Result:DrugsDLC.ErgotaCompound=5,
+		Time: 17.0,
+		Sound:BoilingDrugWater,
+		Category: Drugs,
+		SkillRequired:Cooking=2,
+		NeedToBeLearn:true,
+		AnimNode:Pour,
+	}
+
+recipe Make Acid Compound
+	{
+		DrugsDLC.ErgotaCompound=5,
+		DrugsDLC.IodoricAcidBottle=1,
+		keep Pot=1,
+
+		Result:DrugsDLC.AcidCompound=10,
+		Time: 14.0,
+		Sound:BoilingDrugWater,
+		Category: Drugs,
+		SkillRequired:Cooking=2,
+		NeedToBeLearn:true,
+		AnimNode:Pour,
+	}
+
+recipe Dry The Acid Compound
+	{
+		DrugsDLC.AcidCompound=10,
+		DrugsDLC.BolsaDeDroga=10,
+
+		Result:DrugsDLC.Acid=10,
+		Time: 20.0,
+		Sound:DryDrugx,
+		Category: Drugs,
+		CanBeDoneFromFloor:true,
+		NeedToBeLearn:true,
+	}
+}

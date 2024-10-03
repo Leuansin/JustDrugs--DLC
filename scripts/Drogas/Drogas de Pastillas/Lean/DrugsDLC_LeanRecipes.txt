@@ -1,0 +1,23 @@
+module DrugsDLC
+{
+
+imports
+	{
+		Base
+	}
+
+recipe Make Lean
+	{
+		PopBottle=1,
+		MapleSyrup/PillsBeta/Pills/PillsSleepingTablets/PillsVitamins/PillsAntiDep=1,
+		Pills/PopBottleEmpty/WaterBottleEmpty/WhiskeyEmpty/WineEmpty/WineEmpty2/BeerEmpty=1,
+
+		Result:DrugsDLC.Lean=1,
+		Time: 12.0,
+		Category: Drugs,
+		Sound:BoilingDrugWater,
+		NeedToBeLearn:true,
+		AnimNode:Pour,
+	}
+
+}

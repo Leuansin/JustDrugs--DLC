@@ -1,0 +1,113 @@
+module DrugsDLC
+{
+imports
+	{
+		Base
+	}
+    
+recipe Unpack Package
+    {
+        DrugsDLC.5PercocetPack=1,
+        Pills/PopBottleEmpty/WaterBottleEmpty/WhiskeyEmpty/WineEmpty/WineEmpty2/BeerEmpty=5,
+
+        Result:DrugsDLC.PercoBottle=5,
+        Time: 5.0,
+        Category: Drugs,
+        Sound:PutItemInBag,
+        AnimNode: Loot,
+        CanBeDoneFromFloor:true,
+    }
+
+recipe Unpack Package
+    {
+        DrugsDLC.10PercocetPack=1,
+        Pills/PopBottleEmpty/WaterBottleEmpty/WhiskeyEmpty/WineEmpty/WineEmpty2/BeerEmpty=10,
+
+        Result:DrugsDLC.PercoBottle=10,
+        Time: 10.0,
+        Sound:PutItemInBag,
+        Category: Drugs,
+        AnimNode: Loot,
+        CanBeDoneFromFloor:true,
+    }
+
+recipe Unpack Package
+    {
+        DrugsDLC.20PercocetPack=1,
+        Pills/PopBottleEmpty/WaterBottleEmpty/WhiskeyEmpty/WineEmpty/WineEmpty2/BeerEmpty=20,
+
+        Result:DrugsDLC.PercoBottle=20,
+        Sound:PutItemInBag,
+        Time: 15.0,
+        Category: Drugs,
+        AnimNode: Loot,
+        CanBeDoneFromFloor:true,
+    }
+
+recipe Unpack Package
+    {
+        DrugsDLC.100PercocetPack=1,
+        Pills/PopBottleEmpty/WaterBottleEmpty/WhiskeyEmpty/WineEmpty/WineEmpty2/BeerEmpty=100,
+
+        Result:DrugsDLC.PercoBottle=100,
+        Time: 5.0,
+        Sound:PutItemInBag,
+        Category: Drugs,
+        AnimNode: Loot,
+        CanBeDoneFromFloor:true,
+    }
+
+-- Cambio de Unpackaging
+
+recipe Unpack Into Packages
+    {
+        DrugsDLC.10PercocetPack=1,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=2,
+
+        Result:DrugsDLC.5PercocetPack=2,
+        Time: 10.0,
+        Category: Drugs,
+        Sound:PutItemInBag,
+        AnimNode: Loot,
+        CanBeDoneFromFloor:true,
+    }
+
+recipe Unpack Into Packages
+    {
+        DrugsDLC.20PercocetPack=1,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=2,
+        Result:DrugsDLC.10PercocetPack=2,
+        Time: 20.0,
+        Category: Drugs,
+        AnimNode: Loot,
+        Sound:PutItemInBag,
+        CanBeDoneFromFloor:true,
+    }
+
+recipe Unpack Into Packages
+    {
+        DrugsDLC.100PercocetPack=1,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=5,
+
+        Result:DrugsDLC.20PercocetPack=5,
+        Time: 50.0,
+        Category: Drugs,
+        AnimNode: Loot,
+        Sound:PutItemInBag,
+        CanBeDoneFromFloor:true,
+    }
+
+recipe Unpack Into Packages
+    {
+        DrugsDLC.1000PercocetPack=1,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=6,
+
+        Result:DrugsDLC.100PercocetPack=10,
+        Time: 100.0,
+        Category: Drugs,
+        AnimNode: Loot,
+        CanBeDoneFromFloor:true,
+        Sound:PutItemInBag,
+    }
+
+}

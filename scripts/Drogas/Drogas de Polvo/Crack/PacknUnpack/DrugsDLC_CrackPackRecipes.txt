@@ -1,0 +1,190 @@
+module DrugsDLC
+{
+imports
+	{
+		Base
+	}
+
+recipe Pack 5 Grams of Crack
+	{
+		DrugsDLC.Crack=5,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=1,
+		Aluminum=1,
+
+		Result:DrugsDLC.5CrackPack=1,
+		Time: 5.0,
+		Category: Drugs,
+		Sound:PutItemInBag,
+		AnimNode:Pour,
+		CanBeDoneFromFloor:true,
+	}
+
+recipe Pack 10 Grams of Crack
+	{
+		DrugsDLC.5CrackPack=2,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=1,
+		Aluminum=1,
+
+		Result:DrugsDLC.10CrackPack,
+		Time: 10.0,
+		Category: Drugs,
+		Sound:PutItemInBag,
+		AnimNode:Pour,
+		CanBeDoneFromFloor:true,
+	}
+
+recipe Pack 10 Grams of Crack
+	{
+		DrugsDLC.Crack=10,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=1,
+		Aluminum=1,
+
+		Result:DrugsDLC.10CrackPack,
+		Time: 10.0,
+		Category: Drugs,
+		AnimNode:Pour,
+		Sound:PutItemInBag,
+		CanBeDoneFromFloor:true,
+	}
+
+recipe Pack 20 Grams of Crack
+	{
+		DrugsDLC.Crack=20,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=2,
+		Aluminum=1,
+
+		Result:DrugsDLC.20CrackPack,
+		Time: 5.0,
+		Category: Drugs,
+		Sound:PutItemInBag,
+		AnimNode:Pour,
+		CanBeDoneFromFloor:true,
+	}
+	
+recipe Pack 20 Grams of Crack
+	{
+		DrugsDLC.10CrackPack=2,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=2,
+		Aluminum=1,
+
+		Result:DrugsDLC.20CrackPack,
+		Time: 10.0,
+		Sound:PutItemInBag,
+		Category: Drugs,
+		AnimNode:Pour,
+		CanBeDoneFromFloor:true,
+	}
+
+recipe Pack 20 Grams of Crack
+	{
+		DrugsDLC.5CrackPack=4,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=2,
+		Aluminum=1,
+
+		Result:DrugsDLC.20CrackPack,
+		Time: 20.0,
+		Sound:PutItemInBag,
+		Category: Drugs,
+		AnimNode:Pour,
+		CanBeDoneFromFloor:true,
+	}
+
+recipe Pack 100 Grams of Crack
+	{
+		DrugsDLC.Crack=100,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=4,
+		Aluminum=2,
+
+		Result:DrugsDLC.100CrackPack,
+		Time: 20.0,
+		Sound:PutItemInBag,
+		Category: Drugs,
+		AnimNode:Pour,
+		CanBeDoneFromFloor:true,
+	}
+
+recipe Pack 100 Grams of Crack
+	{
+		DrugsDLC.20CrackPack=5,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=4,
+		Aluminum=2,
+
+		Result:DrugsDLC.100CrackPack,
+		Time: 30.0,
+		Sound:PutItemInBag,
+		Category: Drugs,
+		AnimNode:Pour,
+		CanBeDoneFromFloor:true,
+	}
+
+recipe Pack 100 Grams of Crack
+	{
+		DrugsDLC.10CrackPack=10,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=6,
+		Aluminum=2,
+
+		Result:DrugsDLC.100CrackPack,
+		Time: 40.0,
+		Category: Drugs,
+		Sound:PutItemInBag,
+		AnimNode:Pour,
+		CanBeDoneFromFloor:true,
+	}
+
+recipe Pack 1kg of Crack
+	{
+		DrugsDLC.Crack=1000,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=4,
+		Aluminum=1,
+
+		Result:DrugsDLC.1000CrackPack,
+		Time: 20.0,
+		Sound:PutItemInBag,
+		Category: Drugs,
+		AnimNode:Pour,
+		CanBeDoneFromFloor:true,
+	}
+
+recipe Pack 1kg of Crack
+	{
+		DrugsDLC.100CrackPack=10,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=6,
+		Aluminum=1,
+
+		Result:DrugsDLC.1000CrackPack,
+		Time: 50.0,
+		Sound:PutItemInBag,
+		Category: Drugs,
+		AnimNode:Pour,
+		CanBeDoneFromFloor:true,
+	}
+
+recipe Pack 1kg of Crack
+	{
+		DrugsDLC.20CrackPack=50,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=15,
+		Aluminum=1,
+
+		Result:DrugsDLC.1000CrackPack,
+		Time: 80.0,
+		Category: Drugs,
+		Sound:PutItemInBag,
+		AnimNode:Pour,
+		CanBeDoneFromFloor:true,
+	}
+
+recipe Pack 1kg of Crack
+	{
+		DrugsDLC.10CrackPack=100,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=20,
+		Aluminum=1,
+
+		Result:DrugsDLC.1000CrackPack,
+		Time: 120.0,
+		Sound:PutItemInBag,
+		Category: Drugs,
+		AnimNode:Pour,
+		CanBeDoneFromFloor:true,
+	}
+
+}

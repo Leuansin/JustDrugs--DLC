@@ -1,0 +1,195 @@
+module DrugsDLC
+{
+imports
+	{
+		Base
+	}
+
+item RawShrooms
+	{
+		Weight		      =	0.01,
+		Type		      =	Normal,
+		DisplayName	      =	Raw Psilocybin Shrooms,
+        DisplayCategory   = Drugs,
+		Icon		      =	RawShrooms,
+	}
+
+item RefinedCoca
+	{
+		Weight		      =	0.01,
+		Type		      =	Normal,
+		DisplayName	      =	Refined Cocaine (grams),
+        DisplayCategory   = Drugs,
+		Icon		      =	RefinedCocaine,
+		Tooltip 		  = Tooltip_RefinedCoca,
+	}
+
+item RefinedHeroin
+	{
+		Weight		      =	0.01,
+		Type		      =	Normal,
+		DisplayName	      =	Refined Heroin (grams),
+        DisplayCategory   = Drugs,
+		Icon		      =	RefinedHeroin,
+		Tooltip 		  = Tooltip_RefinedCoca,
+
+	}
+
+item AmphSales
+	{
+		Weight		      =	0.01,
+		Type		      =	Normal,
+		DisplayName	      =	Amphetamine Sales (grams),
+        DisplayCategory   = Drugs,
+		Icon		      =	AmphSales,
+	}
+
+
+item EphedrineCompound
+	{
+		Weight		      =	0.01,
+		Type		      =	Normal,
+		DisplayName	      =	Ephedrine Compound (grams),
+        DisplayCategory   = Drugs,
+		Icon		      =	EphedrineC,
+	}
+
+item MethCompound
+	{
+		Weight		      =	0.01,
+		Type		      =	Normal,
+		DisplayName	      =	Meth Compound (grams),
+        DisplayCategory   = Drugs,
+		Icon		      =	MethC,
+	}
+
+item OxycodoneCompound
+	{
+		Weight		      =	0.01,
+		Type		      =	Normal,
+		DisplayName	      =	Oxycodone Compound (grams),
+        DisplayCategory   = Drugs,
+		Icon		      =	MethC,
+	}
+
+item ErgotaCompound
+	{
+		Weight		      =	0.01,
+		Type		      =	Normal,
+		DisplayName	      =	Ergotamine Compound (grams),
+        DisplayCategory   = Drugs,
+		Icon		      =	ErgotaminaC,
+	}
+
+item BenzoCompound
+	{
+		Weight		      =	0.01,
+		Type		      =	Normal,
+		DisplayName	      =	Benzodiazepine Compound (grams),
+        DisplayCategory   = Drugs,
+		Icon		      =	BenzoCompound,
+	}
+
+item XanaxCompound
+	{
+		Weight		      =	0.01,
+		Type		      =	Normal,
+		DisplayName	      =	Xanax Compound (grams),
+        DisplayCategory   = Drugs,
+		Icon		      =	XanaxCompound,
+	}
+
+item CocaCompound
+	{
+		Weight		      =	0.01,
+		Type		      =	Normal,
+		DisplayName	      =	Cocaine Compound (grams),
+        DisplayCategory   = Drugs,
+		Icon		      =	CocaineCompound,
+	}
+
+
+item AcidCompound
+	{
+		Weight		      =	0.01,
+		Type		      =	Normal,
+		DisplayName	      =	Acid Compound (grams),
+        DisplayCategory   = Drugs,
+		Icon		      =	AcidC,
+	}
+
+item PsilocybinCompound
+	{
+		Weight		      =	0.01,
+		Type		      =	Normal,
+		DisplayName	      =	Psilocybin Compound (grams),
+        DisplayCategory   = Drugs,
+		Icon		      =	PsyloCompound,
+	}
+
+item FentanylCompound
+	{
+		Weight		      =	0.01,
+		Type		      =	Normal,
+		DisplayName	      =	Fentanyl Compound (grams),
+        DisplayCategory   = Drugs,
+		Icon		      =	CocaineCompound,
+	}
+
+item CrackCompound
+	{
+		Weight		      =	0.01,
+		Type		      =	Normal,
+		DisplayName	      =	Crack Compound (grams),
+        DisplayCategory   = Drugs,
+		Icon		      =	Crack,
+	}
+
+
+item MorphineCompound
+	{
+		Weight		      =	0.01,
+		Type		      =	Normal,
+		DisplayName	      =	Morphine Compound (grams),
+        DisplayCategory   = Drugs,
+		Icon		      =	MorphineCompound,
+	}
+
+item TramadolCompound
+	{
+		Weight		      =	0.01,
+		Type		      =	Normal,
+		DisplayName	      =	Tramadol Compound (grams),
+        DisplayCategory   = Drugs,
+		Icon		      =	MorphineCompound,
+	}
+
+item CodeineCompound
+	{
+		Weight		      =	0.01,
+		Type		      =	Normal,
+		DisplayName	      =	Codeine Compound (grams),
+        DisplayCategory   = Drugs,
+		Icon		      =	MethC,
+	}
+
+item VicodinCompound
+	{
+		Weight		      =	0.01,
+		Type		      =	Normal,
+		DisplayName	      =	Vicodin Compound (grams),
+        DisplayCategory   = Drugs,
+		Icon		      =	MethC,
+	}
+
+item PhenyCompound
+	{
+		Weight		      =	0.01,
+		Type		      =	Normal,
+		DisplayName	      =	Pheny Compound (grams),
+        DisplayCategory   = Drugs,
+		Icon		      =	PhenyC,
+	}
+
+
+}

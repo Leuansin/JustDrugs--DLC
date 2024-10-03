@@ -1,0 +1,141 @@
+module DrugsDLC
+{
+    imports
+    {
+        Base
+    }
+
+recipe Melt Drug
+{
+    DrugsDLC.HeroinSpoonDrug=1,
+    keep Lighter/Matches=1,
+
+    Result:DrugsDLC.HeroinNeedle,
+	Time: 20.0,
+	Category: Drugs,
+	AnimNode:BlowTorch,
+}
+
+
+recipe Melt Drug
+{
+    DrugsDLC.MethSpoonDrug=1,
+    keep Lighter/Matches=1,
+
+    Result:DrugsDLC.MethNeedle,
+	Time: 20.0,
+	Category: Drugs,
+	AnimNode:BlowTorch,
+}
+
+recipe Melt Drug
+{
+    DrugsDLC.CocaineSpoonDrug=1,
+    keep Lighter/Matches=1,
+
+    Result:DrugsDLC.CocaineNeedle,
+	Time: 20.0,
+	Category: Drugs,
+	AnimNode:BlowTorch,
+}
+
+recipe Melt Drug
+{
+    DrugsDLC.CrackSpoonDrug=1,
+    keep Lighter/Matches=1,
+
+    Result:DrugsDLC.CrackNeedle,
+	Time: 20.0,
+	Category: Drugs,
+	AnimNode:BlowTorch,
+}
+
+recipe Melt Drug
+{
+    DrugsDLC.FentanylSpoonDrug=1,
+    keep Lighter/Matches=1,
+
+    Result:DrugsDLC.FentanylNeedle,
+	Time: 20.0,
+	Category: Drugs,
+	AnimNode:BlowTorch,
+}
+
+recipe Melt Drug
+{
+    DrugsDLC.AmphSpoonDrug=1,
+    keep Lighter/Matches=1,
+
+    Result:DrugsDLC.AmphNeedle,
+	Time: 20.0,
+	Category: Drugs,
+	AnimNode:BlowTorch,
+}
+
+recipe Add Drug to Spoon
+{
+	DrugsDLC.Meth=1,
+	keep Spoon=1,
+
+	Result:DrugsDLC.MethSpoonDrug=1,
+	Time: 5.0,
+	Category: Drugs,
+	AnimNode:Pour,
+}
+
+recipe Add Drug to Spoon
+{
+	DrugsDLC.Cocaine=1,
+	keep Spoon=1,
+
+	Result:DrugsDLC.CocaineSpoonDrug=1,
+	Time: 5.0,
+	Category: Drugs,
+	AnimNode:Pour,
+}
+
+recipe Add Drug to Spoon
+{
+	DrugsDLC.Fentanyl=1,
+	keep Spoon=1,
+
+	Result:DrugsDLC.FentanylSpoonDrug=1,
+	Time: 5.0,
+	Category: Drugs,
+	AnimNode:Pour,
+}
+
+recipe Add Drug to Spoon
+{
+	DrugsDLC.Crack=1,
+	keep Spoon=1,
+
+	Result:DrugsDLC.CrackSpoonDrug=1,
+	Time: 5.0,
+	Category: Drugs,
+	AnimNode:Pour,
+}
+
+recipe Add Drug to Spoon
+{
+	DrugsDLC.Amphetamines=1,
+	keep Spoon=1,
+
+	Result:DrugsDLC.AmphSpoonDrug=1,
+	Time: 5.0,
+	Category: Drugs,
+	AnimNode:Pour,
+}
+
+recipe Add Drug to Spoon
+{
+	DrugsDLC.Heorin=1,
+	keep Spoon=1,
+
+	Result:DrugsDLC.HeroinSpoonDrug=1,
+	Time: 5.0,
+	Category: Drugs,
+	AnimNode:Pour,
+}
+
+}

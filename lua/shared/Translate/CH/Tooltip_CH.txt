@@ -1,0 +1,23 @@
+Tooltip_CH = {
+Tooltip_Meth = "强效毒品。可能导致戒断反应。",
+Tooltip_Crack = "强效毒品。可能导致戒断反应。",
+Tooltip_Heroin = "强效毒品。可能导致戒断反应。",
+Tooltip_DrugPipe = "放入任何东西，点燃并吸入。你可能需要一些东西来点燃它。",
+Tooltip_Needle = "你可以用这个注射海洛因。可能导致戒断反应。",
+Tooltip_Blockcocaine = "一个沉重的包裹。可以拆开。",
+Tooltip_BagShrooms = "打开它以找到许多蘑菇。",
+Tooltip_MethPipe = "点燃它，用冰毒嗨翻天。可能导致戒断反应。",
+Tooltip_CrackPipe = "点燃它，用冰毒嗨翻天。可能导致戒断反应。",
+Tooltip_Cocaine = "吸入它，让你感觉世界属于你。可能导致戒断反应。",
+Tooltip_HeroinNeedle = "注射海洛因并享受。可能导致戒断反应。",
+Tooltip_Amphetamines = "吸入安非他命，让你感觉像个神。可能导致戒断反应。",
+Tooltip_Xanax = "服用一些药片让自己感觉更好。可能导致中毒。",
+Tooltip_Fentanyl = "吸入芬太尼，忘记僵尸的烦恼。可能导致不适。",
+Tooltip_Acid = "吞下它，体验迷幻之旅。可能导致戒断反应。",
+Tooltip_Shrooms = "看起来你喜欢与众不同的思考方式。没关系。没有戒断或中毒。",
+Tooltip_RefinedCoca = "可以晾干得到可卡因。",
+Tooltip_Loperamide = "帮助解决食物中毒，对中毒有帮助。",
+Tooltip_Narcan = "药物过量的求救信号，使用时请小心。",
+Tooltip_Bismuth = "帮助解决食物中毒，对中毒有帮助。",
+
+}

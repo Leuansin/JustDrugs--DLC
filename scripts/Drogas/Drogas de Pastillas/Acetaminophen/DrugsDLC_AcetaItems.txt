@@ -1,0 +1,141 @@
+module DrugsDLC
+{
+imports
+	{
+		Base
+	}
+
+
+item AcetaminophenBottle
+{
+	    Weight              = 0.1,
+        Type                = Normal,
+        DisplayName         = Bottle of Acetaminophen,
+        DisplayCategory     = Drugs,
+        Icon                = AcetaminophenBottle,
+        WorldStaticModel 	= Vitamins_Ground,
+		Tooltip 		    = Tooltip_BottleDrugs,
+}
+
+item Acetaminophen
+    {
+        DisplayName                 = Acetaminophen,
+        DisplayCategory             = Drugs,
+		Type						= Food,
+        Medical						= true,
+        Weight                      = 0.1,
+        Icon                        = Pastillitas,
+        Packaged                    = FALSE,
+		PainReduction 				= 8,
+		FatigueChange 				= 2,
+		StressChange				= -10,
+		ReduceInfectionPower     	= 12, 
+		Poison						= true,
+		PoisonPower					= 0.1,
+		UseDelta 					= 0.1,
+        CustomContextMenu           = Take Pill,
+		CustomEatSound              = shakepills,
+        WorldStaticModel 			= PillBottle,
+		Tooltip 					= Tooltip_Acetaminophen,
+    }
+
+item ParacetamolBox
+{
+	    Weight              = 0.1,
+        Type                = Normal,
+        DisplayName         = Box of Panadol 500mg,
+        DisplayCategory     = Drugs,
+        Icon                = ParacetamolBox,
+        WorldStaticModel 	= Vitamins_Ground,
+		Tooltip 		    = Tooltip_BottleDrugs,
+}
+
+item Paracetamol
+    {
+        DisplayName                 = Paracetamol 500mg,
+        DisplayCategory             = Drugs,
+		Type						= Food,
+        Medical						= true,
+        Weight                      = 0.1,
+        Icon                        = Pastillitas,
+        Packaged                    = FALSE,
+		PainReduction 				= 5,
+		FatigueChange 				= 2,
+		StressChange				= -5,
+		ReduceInfectionPower     	= 8, 
+		Poison						= true,
+		PoisonPower					= 0.1,
+		UseDelta 					= 0.1,
+        CustomContextMenu           = Take Pill,
+		CustomEatSound              = shakepills,
+        WorldStaticModel 			= PillBottle,
+		Tooltip 					= Tooltip_Acetaminophen,
+    }
+
+item PanadolBox
+{
+	    Weight              = 0.1,
+        Type                = Normal,
+        DisplayName         = Box of Panadol 500mg,
+        DisplayCategory     = Drugs,
+        Icon                = PanadolBox,
+        WorldStaticModel 	= Vitamins_Ground,
+		Tooltip 		    = Tooltip_BottleDrugs,
+}
+
+item Panadol
+    {
+        DisplayName                 = Panadol 500mg,
+        DisplayCategory             = Drugs,
+		Type						= Food,
+        Medical						= true,
+        Weight                      = 0.1,
+        Icon                        = Pastillitas,
+        Packaged                    = FALSE,
+		PainReduction 				= 3,
+		FatigueChange 				= 1,
+		StressChange				= -3,
+		ReduceInfectionPower     	= 8, 
+		Poison						= true,
+		PoisonPower					= 0.1,
+		UseDelta 					= 0.1,
+        CustomContextMenu           = Take Pill,
+		CustomEatSound              = shakepills,
+        WorldStaticModel 			= PillBottle,
+		Tooltip 					= Tooltip_Acetaminophen,
+    }
+
+item TylenolBox
+{
+	    Weight              = 0.1,
+        Type                = Normal,
+        DisplayName         = Box of Tylenol 500mg,
+        DisplayCategory     = Drugs,
+        Icon                = TylenolBox,
+        WorldStaticModel 	= Vitamins_Ground,
+		Tooltip 		    = Tooltip_BottleDrugs,
+}
+
+
+item Tylenol
+    {
+        DisplayName                 = Tylenol,
+        DisplayCategory             = Drugs,
+		Type						= Food,
+        Medical						= true,
+        Weight                      = 0.1,
+        Icon                        = Pastillitas,
+        Packaged                    = FALSE,
+		PainReduction 				= 5,
+		FatigueChange 				= 2,
+		StressChange				= -5,
+		ReduceInfectionPower     	= 8, 
+		Poison						= true,
+		PoisonPower					= 0.1,
+		UseDelta 					= 0.1,
+        CustomContextMenu           = Take Pill,
+		CustomEatSound              = shakepills,
+        WorldStaticModel 			= PastillitaWSM,
+		Tooltip 					= Tooltip_Acetaminophen,
+    }
+}

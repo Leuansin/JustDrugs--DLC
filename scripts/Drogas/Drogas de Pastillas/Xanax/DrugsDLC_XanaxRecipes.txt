@@ -1,0 +1,65 @@
+module DrugsDLC
+{
+
+imports
+	{
+		Base
+	}
+
+recipe Take Pills Out
+{
+	DrugsDLC.XanaxBottle=1,
+	Result:DrugsDLC.Xanax=12,
+	Time: 2.0,
+	Category: Drugs,
+	Sound: shakepills,
+	AnimNode:Pour,
+}
+
+
+recipe Make Benzodiazepine Compound
+	{
+		PillsAntiDep=1,
+		PillsSleepingTablets=1,
+		keep Pot=1,
+		NearItem:Oven,
+		Heat:-0.40,
+
+		Result:DrugsDLC.BenzoCompound=14,
+		Time: 17.0,
+		Category: Drugs,
+		SkillRequired:Cooking=2,
+		Sound:BoilingDrugWater,
+		NeedToBeLearn:true,
+		AnimNode:Pour,
+	}
+
+recipe Produce Xanax Compound
+	{
+		DrugsDLC.BenzoCompound=10,
+		DrugsDLC.AmmoniaBottle=1,
+		DrugsDLC.MorphineCompound=1,
+		keep Pot=1,
+
+		Result:DrugsDLC.XanaxCompound=8,
+		Time: 14.0,
+		Category: Drugs,
+		SkillRequired:Cooking=2,
+		Sound:BoilingDrugWater,
+		NeedToBeLearn:true,
+		AnimNode:Pour,
+	}
+
+recipe Dry Xanax Compound
+	{
+		DrugsDLC.XanaxCompound=6,
+		Pills/PopBottleEmpty/WaterBottleEmpty/WhiskeyEmpty/WineEmpty/WineEmpty2/BeerEmpty=5,
+
+		Result:DrugsDLC.Xanax=5,
+		Time: 20.0,
+		Category: Drugs,
+		Sound:DryDrugx,
+		CanBeDoneFromFloor:true,
+		NeedToBeLearn:true,
+	}
+}

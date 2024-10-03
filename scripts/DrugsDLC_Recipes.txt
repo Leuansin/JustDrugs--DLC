@@ -1,0 +1,48 @@
+module DrugsDLC
+{
+	imports
+	{
+		Base
+		LEU
+	}
+
+recipe Extract Phenylethylamine
+	{
+		Chocolate/Painauchocolat/CakeChocolate/DoughnutChocolate=1,
+		keep MortarPestle/Mov_ConcreteMixer/LEU.SkullPestle=1,
+		keep Pot=1,
+		NearItem:Oven,
+		Heat:-0.40,
+		Result:DrugsDLC.PhenyCompound=3,
+		Time: 17.0,
+		Category: Drugs,
+		SkillRequired:Cooking=2,
+		AnimNode:Pour,
+	}
+
+recipe Extract Phenylethylamine
+	{
+		CookieChocolateChip/ChocolateChips/ChocolateCookie/ChocolateCoveredCoffeeBeans=3,
+		keep MortarPestle/Mov_ConcreteMixer/LEU.SkullPestle=1,
+		keep Pot=1,
+		NearItem:Oven,
+		Heat:-0.40,
+		Result:DrugsDLC.PhenyCompound=1,
+		Time: 17.0,
+		Category: Drugs,
+		SkillRequired:Cooking=2,
+		AnimNode:Pour,
+	}
+
+recipe Add Heroin To Needle
+    {
+        Heroin,
+        keep Spoon,
+        keep Lighter/Matches,
+        Needle/LEU.NeedleBone=1,
+
+        Result: HeroinNeedle,
+        Category: Drugs,
+        Time: 20.0,
+    }
+}

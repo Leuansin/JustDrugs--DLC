@@ -1,0 +1,8 @@
+ContextMenu_JP = {
+
+ContextMenu_Inhale = "吸引",
+ContextMenu_Inject = "注射",
+ContextMenu_Swallow = "飲み込む",
+ContextMenu_Eat Shrooms = "キノコを食べる",
+ContextMenu_Take Pill = "錠剤を飲む",
+}

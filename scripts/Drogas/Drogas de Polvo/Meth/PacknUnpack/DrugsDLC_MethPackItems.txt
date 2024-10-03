@@ -1,0 +1,67 @@
+module DrugsDLC
+{
+imports
+	{
+		Base
+	}
+
+item 5MethPack
+	{
+		Weight		      =	0.05,
+		Type		      =	Normal,
+		DisplayName	      =	Pack of Meth (5G),
+        DisplayCategory   = Drugs,
+		Icon		      = TinyPacks,
+		WorldStaticModel  = DrugBrick,
+		Tooltip 		  = Tooltip_Blockcocaine,
+        Count             = 1,
+	}
+
+item 10MethPack
+	{
+		Weight		      =	0.1,
+		Type		      =	Normal,
+		DisplayName	      =	Pack of Meth (10G),
+        DisplayCategory   = Drugs,
+		Icon		      = TinyPacks,
+		WorldStaticModel  = DrugBrick,
+		Tooltip 		  = Tooltip_Blockcocaine,
+        Count             = 1,
+	}
+
+item 20MethPack
+	{
+		Weight		      =	0.2,
+		Type		      =	Normal,
+		DisplayName	      =	Pack of Meth (20G),
+        DisplayCategory   = Drugs,
+		Icon		      = DrugBricks,
+		WorldStaticModel  = DrugBrick,
+		Tooltip 		  = Tooltip_Blockcocaine,
+        Count             = 1,
+	}
+
+item 100MethPack
+	{
+		Weight		      =	1,
+		Type		      =	Normal,
+		DisplayName	      =	Big Pack of Meth,
+        DisplayCategory   = Drugs,
+		Icon		      = DrugBricks,
+		WorldStaticModel  = DrugBrick,
+		Tooltip 		  = Tooltip_Blockcocaine,
+        Count             = 1,
+	}
+
+item 1000MethPack
+	{
+		Weight		      =	10,
+		Type		      =	Normal,
+		DisplayName	      =	Huge Pack of Meth,
+        DisplayCategory   = Drugs,
+		Icon		      = BlockCocaine,
+		WorldStaticModel  = DrugBrick,
+		Tooltip 		  = Tooltip_Blockcocaine,
+        Count             = 1,
+	}
+}

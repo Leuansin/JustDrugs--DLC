@@ -1,0 +1,49 @@
+module DrugsDLC
+{
+imports
+	{
+		Base
+	}
+
+item AcidLibro
+	{
+		Weight			  = 0.3,
+		Type		      =	Literature,
+		DisplayName	      =	Chemistry 101: How to Make Acid,
+        DisplayCategory   = Drugs,
+		Icon		      =	Book,
+		WorldStaticModel  = BookGrey,
+		BoredomChange	  = -50,
+		ColorGreen 		  = 195,
+		StressChange	  = -15,
+		NumberOfPages 	  = 420,
+		Count			  = 1,
+		TeachedRecipes 	  = Make Acid Base;Make Acid Compound;Dry The Acid Compound,
+	}
+
+item Acid
+    {
+        DisplayName                 = Tablet of Acid,
+        DisplayCategory             = Drugs,
+        Type                        = Food,
+        Weight                      = 0.1,
+        Icon                        = Acid,
+        Packaged                    = FALSE,
+		FatigueChange	        	= -25,
+		UnhappyChange				= -20,  
+		HungerChange 				= -40,
+		ThirstChange				= 8,
+		EnduranceChange 			= 20,
+		BoredomChange 				= -70,
+		StressChange				= -69,  
+		Poison 						= True,
+		OnEat 						= OnEat_Alucinogenos,
+		PoisonPower					= 4,    
+		ReduceInfectionPower     	= 2,   
+		ReplaceOnUse	        	= DrugsDLC.BolsaDeDroga,
+        CustomContextMenu           = Swallow,
+		CustomEatSound              = Crackling,
+        WorldStaticModel 			= Acid,
+		Tooltip 					= Tooltip_Acid,
+    }
+}

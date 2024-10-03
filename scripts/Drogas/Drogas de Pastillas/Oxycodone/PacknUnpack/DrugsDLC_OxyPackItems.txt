@@ -1,0 +1,67 @@
+module DrugsDLC
+{
+imports
+	{
+		Base
+	}
+
+item 5OxycodonePack
+	{
+		Weight		      =	0.05,
+		Type		      =	Normal,
+		DisplayName	      =	Pack of Oxycodone (5),
+        DisplayCategory   = Drugs,
+		Icon		      = TinyPacks,
+		WorldStaticModel  = DrugBrick,
+		Tooltip 		  = Tooltip_Blockcocaine,
+        Count             = 1,
+	}
+
+item 10OxycodonePack
+	{
+		Weight		      =	0.1,
+		Type		      =	Normal,
+		DisplayName	      =	Pack of Oxycodone (10),
+        DisplayCategory   = Drugs,
+		Icon		      = TinyPacks,
+		WorldStaticModel  = DrugBrick,
+		Tooltip 		  = Tooltip_Blockcocaine,
+        Count             = 1,
+	}
+
+item 20OxycodonePack
+	{
+		Weight		      =	0.2,
+		Type		      =	Normal,
+		DisplayName	      =	Pack of Oxycodone (20),
+        DisplayCategory   = Drugs,
+		Icon		      = DrugBricks,
+		WorldStaticModel  = DrugBrick,
+		Tooltip 		  = Tooltip_Blockcocaine,
+        Count             = 1,
+	}
+
+item 100OxycodonePack
+	{
+		Weight		      =	1,
+		Type		      =	Normal,
+		DisplayName	      =	Big Pack of Oxycodone,
+        DisplayCategory   = Drugs,
+		Icon		      = DrugBricks,
+		WorldStaticModel  = DrugBrick,
+		Tooltip 		  = Tooltip_Blockcocaine,
+        Count             = 1,
+	}
+
+item 1000OxycodonePack
+	{
+		Weight		      =	10,
+		Type		      =	Normal,
+		DisplayName	      =	Huge Pack of Oxycodone,
+        DisplayCategory   = Drugs,
+		Icon		      = BlockCocaine,
+		WorldStaticModel  = DrugBrick,
+		Tooltip 		  = Tooltip_Blockcocaine,
+        Count             = 1,
+	}
+}

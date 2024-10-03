@@ -1,0 +1,190 @@
+module DrugsDLC
+{
+imports
+	{
+		Base
+	}
+
+recipe Pack 5 Bottles of Codeine
+	{
+		DrugsDLC.Codeine=5,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=1,
+		Aluminum=1,
+
+		Result:DrugsDLC.5CodeinePack=1,
+		Time: 5.0,
+		Category: Drugs,
+		Sound:PutItemInBag,
+		AnimNode:Pour,
+		CanBeDoneFromFloor:true,
+	}
+
+recipe Pack 10 Bottles of Codeine
+	{
+		DrugsDLC.5CodeinePack=2,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=1,
+		Aluminum=1,
+
+		Result:DrugsDLC.10CodeinePack,
+		Time: 10.0,
+		Sound:PutItemInBag,
+		Category: Drugs,
+		AnimNode:Pour,
+		CanBeDoneFromFloor:true,
+	}
+
+recipe Pack 10 Bottles of Codeine
+	{
+		DrugsDLC.Codeine=10,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=1,
+		Aluminum=1,
+
+		Result:DrugsDLC.10CodeinePack,
+		Time: 10.0,
+		Category: Drugs,
+		AnimNode:Pour,
+		Sound:PutItemInBag,
+		CanBeDoneFromFloor:true,
+	}
+
+recipe Pack 20 Bottles of Codeine
+	{
+		DrugsDLC.Codeine=20,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=2,
+		Aluminum=1,
+
+		Result:DrugsDLC.20CodeinePack,
+		Time: 5.0,
+		Category: Drugs,
+		AnimNode:Pour,
+		Sound:PutItemInBag,
+		CanBeDoneFromFloor:true,
+	}
+	
+recipe Pack 20 Bottles of Codeine
+	{
+		DrugsDLC.10CodeinePack=2,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=2,
+		Aluminum=1,
+
+		Result:DrugsDLC.20CodeinePack,
+		Time: 10.0,
+		Sound:PutItemInBag,
+		Category: Drugs,
+		AnimNode:Pour,
+		CanBeDoneFromFloor:true,
+	}
+
+recipe Pack 20 Bottles of Codeine
+	{
+		DrugsDLC.5CodeinePack=4,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=2,
+		Aluminum=1,
+
+		Result:DrugsDLC.20CodeinePack,
+		Time: 20.0,
+		Sound:PutItemInBag,
+		Category: Drugs,
+		AnimNode:Pour,
+		CanBeDoneFromFloor:true,
+	}
+
+recipe Pack 100 Bottles of Codeine
+	{
+		DrugsDLC.Codeine=100,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=4,
+		Aluminum=2,
+
+		Result:DrugsDLC.100CodeinePack,
+		Time: 20.0,
+		Category: Drugs,
+		AnimNode:Pour,
+		Sound:PutItemInBag,
+		CanBeDoneFromFloor:true,
+	}
+
+recipe Pack 100 Bottles of Codeine
+	{
+		DrugsDLC.20CodeinePack=5,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=4,
+		Aluminum=2,
+
+		Result:DrugsDLC.100CodeinePack,
+		Time: 30.0,
+		Category: Drugs,
+		AnimNode:Pour,
+		Sound:PutItemInBag,
+		CanBeDoneFromFloor:true,
+	}
+
+recipe Pack 100 Bottles of Codeine
+	{
+		DrugsDLC.10CodeinePack=10,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=6,
+		Aluminum=2,
+
+		Result:DrugsDLC.100CodeinePack,
+		Time: 40.0,
+		Category: Drugs,
+		Sound:PutItemInBag,
+		AnimNode:Pour,
+		CanBeDoneFromFloor:true,
+	}
+
+recipe Pack 1kg of Codeine Tablets
+	{
+		DrugsDLC.Codeine=1000,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=4,
+		Aluminum=1,
+
+		Result:DrugsDLC.1000CodeinePack,
+		Time: 20.0,
+		Sound:PutItemInBag,
+		Category: Drugs,
+		AnimNode:Pour,
+		CanBeDoneFromFloor:true,
+	}
+
+recipe Pack 1kg of Codeine Tablets
+	{
+		DrugsDLC.100CodeinePack=10,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=6,
+		Aluminum=1,
+
+		Result:DrugsDLC.1000CodeinePack,
+		Time: 50.0,
+		Category: Drugs,
+		Sound:PutItemInBag,
+		AnimNode:Pour,
+		CanBeDoneFromFloor:true,
+	}
+
+recipe Pack 1kg of Codeine Tablets
+	{
+		DrugsDLC.20CodeinePack=50,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=15,
+		Aluminum=1,
+
+		Result:DrugsDLC.1000CodeinePack,
+		Time: 80.0,
+		Category: Drugs,
+		AnimNode:Pour,
+		Sound:PutItemInBag,
+		CanBeDoneFromFloor:true,
+	}
+
+recipe Pack 1kg of Codeine Tablets
+	{
+		DrugsDLC.10CodeinePack=100,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=20,
+		Aluminum=1,
+
+		Result:DrugsDLC.1000CodeinePack,
+		Time: 120.0,
+		Category: Drugs,
+		AnimNode:Pour,
+		Sound:PutItemInBag,
+		CanBeDoneFromFloor:true,
+	}
+
+}

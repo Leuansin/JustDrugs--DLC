@@ -1,0 +1,49 @@
+module DrugsDLC
+{
+
+imports
+	{
+		Base
+	}
+
+recipe Take Pills Out
+{
+	DrugsDLC.PercocetBottle=1,
+	Result:DrugsDLC.Percocet=12,
+	Time: 2.0,
+	Category: Drugs,
+	Sound: shakepills,
+	AnimNode:Pour,
+}
+
+recipe Make Oxycodone Compound
+	{
+		keep DrugsDLC.MorphineCompound=1,
+		DrugsDLC.Acetaminofeno=1,
+		keep Pot=1,
+		NearItem:Oven,
+		Heat:-0.40,
+
+		Result:DrugsDLC.OxycodoneCompound=12,
+		Time: 17.0,
+		Category: Drugs,
+		SkillRequired:Cooking=2,
+		Sound:BoilingDrugWater,
+		NeedToBeLearn:true,
+		AnimNode:Pour,
+	}
+
+recipe Make Percocet
+	{
+		DrugsDLC.OxycodoneCompound=12,
+		DrugsDLC.Acetaminofeno=1,
+		Pills/PopBottleEmpty/WaterBottleEmpty/WhiskeyEmpty/WineEmpty/WineEmpty2/BeerEmpty=1,
+
+		Result:DrugsDLC.PercocetBottle=1,
+		Time: 20.0,
+		Category: Drugs,
+		Sound:DryDrugx,
+		CanBeDoneFromFloor:true,
+		NeedToBeLearn:true,
+	}
+}

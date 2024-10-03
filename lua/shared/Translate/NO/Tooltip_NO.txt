@@ -1,0 +1,24 @@
+Tooltip_NO = {
+
+Tooltip_Meth = "Sterk narkotika. Kan forårsake avhengighet.",
+Tooltip_Crack = "Sterk narkotika. Kan forårsake avhengighet.",
+Tooltip_Heroin = "Sterk narkotika. Kan forårsake avhengighet.",
+Tooltip_DrugPipe = "Bare legg noe i, tenn det og snort. Du kan trenge noe for å tenne det.",
+Tooltip_Needle = "Du kan injisere heroin med dette. Kan forårsake avhengighet.",
+Tooltip_Blockcocaine = "En tung pakke. Kan pakkes ut.",
+Tooltip_BagShrooms = "Åpne for å finne mange sopp.",
+Tooltip_MethPipe = "Tenn den for å bli veldig høy på metamfetamin. Kan forårsake avhengighet.",
+Tooltip_CrackPipe = "Tenn den for å bli veldig høy på metamfetamin. Kan forårsake avhengighet.",
+Tooltip_Cocaine = "Snort for å føle at verden er din. Kan forårsake avhengighet.",
+Tooltip_HeroinNeedle = "Injiser heroin og nyt. Kan forårsake avhengighet.",
+Tooltip_Amphetamines = "Snort amfetaminer for å føle deg som en gud. Kan forårsake avhengighet.",
+Tooltip_Xanax = "Ta noen piller for å føle deg bedre. Kan forårsake rus.",
+Tooltip_Fentanyl = "Snort fentanyl for å glemme zombienes problemer. Kan forårsake ubehag.",
+Tooltip_Acid = "Svelg for å ta en syretrip. Kan forårsake avhengighet.",
+Tooltip_Shrooms = "Det ser ut som om du liker å tenke annerledes. Bare bra. Ingen avhengighet eller rus.",
+Tooltip_RefinedCoca = "Kan tørkes for å lage kokain.",
+Tooltip_Loperamide = "Hjelper med matforgiftning, nyttig for forgiftninger.",
+Tooltip_Narcan = "S.O.S for overdoser av narkotika, bruk med forsiktighet.",
+Tooltip_Bismuth = "Hjelper med matforgiftning, nyttig for forgiftninger.",
+}
+

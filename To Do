@@ -1,0 +1,181 @@
+* Terminar de configurar Iconos de Lean y Percocet
+* Añadir recetas de crafteo para Lean y Percocet
+* Modificar Unpack & Pack para Lean y Percocet
+* Modificar todos los packages, para que permita las nuevas bolsas de basura
+* Testear si se fixeó el EveryHour
+* Testear si da el trait
+
+
+
+
+
+
+Full Guide:
+* Explicar nuevo sistema de inyecciión
+    - Crafteos y que da más efectos, pero envenena más
+
+* Explicar nuevas drogas
+    - Explicar Pastillas
+    - Explicar Polvo
+    - Explicar Plantas
+
+* Explicar que ahora se pueden encontrar plantas que son drogas y alucinogenas haciendo Foraging/Scavenging
+    - Necesitas mínimo nivel 2 y para las mejores plantas alucinogenas, nivel 3
+
+
+Nuevos Items:
+-- Libros --
+AddyLibro
+LeanLibro
+PercLibro
+OxyLibro
+TramadolLibro
+CodeineLibro
+
+-- Drogas --
+Adderall
+    Decreases Boredom, Unhappiness, Fatigue & Stress
+    Increases Slightly Poisoning
+    Can be crafted (Need to be Near Oven and with -0.40 Heat):
+        - Need to find "Chemistry 101: Adderall"
+        - Make Adderall Compound: AntiDeps + Vitamins + Pot
+        - Pack Adderall: Any Bottle + Benzo Compound + Pot
+Lean
+    Decreases Boredom, Pain, Stress
+    Increases Infection Tolerance, Poisoning 
+    Can be crafted (Need to be Near Oven and with -0.40 Heat):
+        - Need to find "Chemistry 101: Lean"
+        - Orange Soda
+        - Any type of pill
+        - Any Empty Bottle 
+        - Pot
+
+Percocet
+    Decreases Slightly Boredom, Pain and Unhappiness
+    Increases Slightly Poisoning, Fatigue (Tiredness) and Infection Tolerance
+    Can be crafted (Need to be Near Oven and with -0.40 Heat):
+        - Need to find "Chemistry 101: Percocet"
+        - Make Oxycodone Compound: Morphine Compound + Acetaminophen + Pot
+        - Make Percocet: Oxycodone Compound + Acetaminophen + Empty Bottle + Pot
+
+Oxycodone
+    Decreases Boredom, Unhappiness, Stress and Reduce a lot of pain
+    Increases Slightly Fatigue(Tiredness) and Poisoning
+    Can be crafted (Need to be Near Oven and with -0.40 Heat):
+        - Need to find "Chemistry 101: Oxycodone"
+        - Make Oxycodone Compound: Morphine Compound + Acetaminophen + Pot
+        - Make Oxycodone: Oxycodone Compound + Morphine Compound + Pot
+
+Acetaminophen / Paracetamol / Panadol / Tylenol | (All 4 are the same drug but with different effects)
+    Decreases Pain
+    Increases Really Slightly Infection Tolerance
+    Can cause overdose (Only in high quantities)
+    Cannot be crafted
+
+Ibuprofen
+    Decreases Pain
+    Increases Really Slightly Infection Tolerance
+    Can cause overdose (Only in high quantities)
+    Cannot be crafted
+
+Tramadol
+    Decreases Highly the Pain and Stress
+    Increses Poisoning & Fatigue (Tiredness)
+    Can be crafted (Need to be Near Oven and with -0.40 Heat):
+        - Need to find "Chemistry 101: Tramadol"
+        - Make Tramadol Compound: Morphine Compound + Oxycodone Compound + Pot
+        - Make Tramadol: Tramadol Compound + Xanax Compound + Pot
+    
+Codeine
+    Decreases Pain and Stress
+    Increases Fatigue and Poisoning
+    Can be crafted (Need to be Near Oven and with -0.40 Heat):
+        - Need to find "Chemistry 101: Codeine"
+        - Make Codeine Compound: Morphine Compound + Oxycodone Compound + Xanax Compound + Pot
+        - Make Codeine: Codeine Compound + Empty Bottle + Pot
+
+Vicodin
+    Decreases Highly Pain and Stress
+    Increases Fatigue
+    Can cause overdose (Only in high quantities)
+    Can be crafted (Need to be Near Oven and with -0.40 Heat):
+        - Need to find "Chemistry 101: Vicodin"
+        - Make Vicodin Compound: Morphine Compound + Ammonia Bottle + Pot
+        - Make Vicodin: Vicodin Compound + Empty Bottle + Pot
+
+
+
+-- Botellas de Drogas --
+AdderallBottle
+XanaxBottle
+PercoBottle
+OxyBottle
+AcetaminophenBottle
+ParacetamolBox
+PanadolBox
+TylenolBox
+IbuprofenBox
+TramadolBox
+CodeineBottle
+VicodinBottle
+
+-- Inyecciones --
+MethNeedle
+CocaineNeedle
+CrackNeedle
+AmphNeedle
+FentanylNeedle
+
+-- Cucharas --
+HeroinSpoonDrug
+MethSpoonDrug
+CocaineSpoonDrug
+CrackSpoonDrug
+AmphSpoonDrug
+FentanylSpoonDrug
+
+Nuevas Recetas:
+Add Drug to Spoon
+Melt Drug
+Take Pills Out
+Make Lean
+Make Oxycodone Compound
+Make Percocet
+Make Adderall Compound
+Produce Adderall
+Make Oxycodone
+Make Tramadol Compound
+Make Tramadol
+Make Codeine Compound
+Make Codeine
+Make Vicodin Compound
+Make Vicodin
+
+Nuevos Iconos:
+Adderall -> Pastillitas.png
+AdderallBottle -> AdderallBottle.png
+Lean -> PurpleDrink.png
+Percocet -> Pastillitas.png
+PercocetBottle -> PercocetBottle.png
+XanaxBottle -> XanaxBottle.png
+Oxycodone -> Pastillitas.png
+OxycodoneBottle -> OxycodoneBottle.png
+Acetaminophen -> Pastillitas.png
+Acetaminophen -> AcetaminophenBottle.png
+Paracetamol -> ParacetamolBox.png
+Panadol -> PanadolBox.png
+Tylenol -> TylenolBox.png
+IbuprofenBox -> IbuprofenBox.png
+Ibuprofen -> Pastillitas.png
+TramadolBox -> TramadolBox.png
+Tramadol -> Pastillitas.png
+Codeine -> Pastillitas.png
+CodeineBottle -> CodeineBottle.png
+Vicodin -> Pastillitas.png
+VicodinBottle -> VicodinBottle.png
+
+Nuevos Sonidos:
+TragarLean
+
+Nuevos Modelos 3D:
+PastillitaWSM | LISTO

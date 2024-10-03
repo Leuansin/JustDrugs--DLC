@@ -1,0 +1,37 @@
+module DrugsDLC
+{
+
+imports
+	{
+		Base
+	}
+
+recipe Make Fentanyl Compound
+	{
+		Pills=1,
+		DrugsDLC.EthanolBottle=1,
+		keep Pot=1,
+		NearItem:Oven,
+		Sound:BoilingDrugWater,
+		Heat:-0.40,
+		Result:DrugsDLC.FentanylCompound=12,
+		Time: 17.0,
+		Category: Drugs,
+		SkillRequired:Cooking=2,
+		NeedToBeLearn:true,
+		AnimNode:Pour,
+	}
+
+recipe Dry and Pack Fentanyl
+	{
+		DrugsDLC.FentanylCompound=12,
+		DrugsDLC.BolsaDeDroga=5,
+		Result:DrugsDLC.Fentanyl=5,
+		Time: 20.0,
+		Sound:DryDrugx,
+		Category: Drugs,
+		CanBeDoneFromFloor:true,
+		NeedToBeLearn:true,
+	}
+
+}

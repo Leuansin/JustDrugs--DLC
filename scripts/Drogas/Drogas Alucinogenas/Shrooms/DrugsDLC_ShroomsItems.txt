@@ -1,0 +1,58 @@
+module DrugsDLC
+{
+imports
+	{
+		Base
+	}
+
+item HongosLibro
+	{
+		Weight			  = 0.3,
+		Type		      =	Literature,
+		DisplayName	      =	Chemistry 101: How to Grow Shrooms with Psilocybin,
+        DisplayCategory   = Drugs,
+		Icon		      =	Book,
+		WorldStaticModel  = BookGrey,
+		BoredomChange	  = -50,
+		ColorRed 		  = 228,
+		StressChange	  = -15,
+		NumberOfPages 	  = 420,
+		Count 			  = 1,
+		TeachedRecipes 	  = Extract Psilocybin;Mix Psilocybin Compound;Grow and Pack Shrooms,
+	}
+
+item Shrooms
+    {
+        DisplayName                 = Shrooms,
+        DisplayCategory             = Drugs,
+        Type                        = Food,
+        Weight                      = 0.1,
+        Icon                        = Shrooms,
+        Packaged                    = FALSE,
+		FatigueChange	        	= -35,
+		UnhappyChange				= -50,  
+		HungerChange 				= 3,
+		ThirstChange				= 3,
+		EnduranceChange 			= 5,
+		BoredomChange 				= -5,
+		StressChange				= -5,  
+		Poison 						= False,
+		PoisonPower					= 0,    
+		ReduceInfectionPower     	= 30,  
+        CustomContextMenu           = Eat Shrooms,
+		CustomEatSound              = swallow,
+        WorldStaticModel 			= Shrooms,
+		Tooltip 					= Tooltip_Shrooms,
+    }
+
+item BagShrooms
+	{
+		Weight		      =	1,
+		Type		      =	Normal,
+		DisplayName	      = Bag of Magic Shrooms,
+        DisplayCategory   = Drugs,
+		Icon		      = Shroomsbaggy,
+		WorldStaticModel  = ShroomsBaggy,
+		Tooltip 		  = Tooltip_BagShrooms,
+	}
+}

@@ -1,0 +1,113 @@
+module DrugsDLC
+{
+imports
+	{
+		Base
+	}
+    
+recipe Unpack Package
+    {
+        DrugsDLC.5AcidPack=1,
+        DrugsDLC.BolsaDeDroga=5,
+
+        Result:DrugsDLC.Acid=5,
+        Time: 5.0,
+		Sound:PutItemInBag,
+        Category: Drugs,
+        AnimNode: Loot,
+        CanBeDoneFromFloor:true,
+    }
+
+recipe Unpack Package
+    {
+        DrugsDLC.10AcidPack=1,
+        DrugsDLC.BolsaDeDroga=10,
+
+        Result:DrugsDLC.Acid=10,
+        Time: 10.0,
+		Sound:PutItemInBag,
+		Category: Drugs,
+        AnimNode: Loot,
+        CanBeDoneFromFloor:true,
+    }
+
+recipe Unpack Package
+    {
+        DrugsDLC.20AcidPack=1,
+        DrugsDLC.BolsaDeDroga=20,
+
+        Result:DrugsDLC.Acid=20,
+        Time: 15.0,
+		Sound:PutItemInBag,
+		Category: Drugs,
+        AnimNode: Loot,
+        CanBeDoneFromFloor:true,
+    }
+
+recipe Unpack Package
+    {
+        DrugsDLC.100AcidPack=1,
+        DrugsDLC.BolsaDeDroga=100,
+
+        Result:DrugsDLC.Acid=100,
+        Time: 5.0,
+		Sound:PutItemInBag,
+		Category: Drugs,
+        AnimNode: Loot,
+        CanBeDoneFromFloor:true,
+    }
+
+-- Cambio de Unpackaging
+
+recipe Unpack Into Packages
+    {
+        DrugsDLC.10AcidPack=1,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=2,
+
+        Result:DrugsDLC.5AcidPack=2,
+        Time: 10.0,
+        Sound:PutItemInBag,
+        Category: Drugs,
+        AnimNode: Loot,
+        CanBeDoneFromFloor:true,
+    }
+
+recipe Unpack Into Packages
+    {
+        DrugsDLC.20AcidPack=1,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=2,
+        Result:DrugsDLC.10AcidPack=2,
+        Time: 20.0,
+        Sound:PutItemInBag,
+        Category: Drugs,
+        AnimNode: Loot,
+        CanBeDoneFromFloor:true,
+    }
+
+recipe Unpack Into Packages
+    {
+        DrugsDLC.100AcidPack=1,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=5,
+
+        Result:DrugsDLC.20AcidPack=5,
+        Time: 50.0,
+        Category: Drugs,
+        Sound:PutItemInBag,
+        AnimNode: Loot,
+        CanBeDoneFromFloor:true,
+    }
+
+recipe Unpack Into Packages
+    {
+        DrugsDLC.1000AcidPack=1,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=6,
+
+        Result:DrugsDLC.100AcidPack=10,
+        Time: 100.0,
+        Category: Drugs,
+        Sound:PutItemInBag,
+        AnimNode: Loot,
+        CanBeDoneFromFloor:true,
+    }
+
+}

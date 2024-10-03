@@ -1,0 +1,24 @@
+Tooltip_ES = {
+Tooltip_Meth = "Drogue forte. Peut causer une dépendance.",
+Tooltip_Crack = "Drogue forte. Peut causer une dépendance.",
+Tooltip_Heroin = "Drogue forte. Peut causer une dépendance.",
+Tooltip_DrugPipe = "Mets-y n'importe quoi, allume-le et inhale. Tu pourrais avoir besoin de quelque chose pour l'allumer.",
+Tooltip_Needle = "Tu peux t'injecter de l'héroïne avec ça. Peut causer une dépendance.",
+Tooltip_Blockcocaine = "Un paquet lourd. Peut être déballé.",
+Tooltip_BagShrooms = "Ouvre-le pour trouver beaucoup de champignons.",
+Tooltip_MethPipe = "Allume-le pour te défoncer avec de la méthamphétamine. Peut causer une dépendance.",
+Tooltip_CrackPipe = "Allume-le pour te défoncer avec de la méthamphétamine. Peut causer une dépendance.",
+Tooltip_Cocaine = "Inhale pour sentir que le monde t'appartient. Peut causer une dépendance.",
+Tooltip_HeroinNeedle = "Injecte-toi de l'héroïne et profite. Peut causer une dépendance.",
+Tooltip_Amphetamines = "Inhale des amphétamines pour te sentir comme un dieu. Peut causer une dépendance.",
+Tooltip_Xanax = "Prends quelques pilules pour te sentir mieux. Peut causer une intoxication.",
+Tooltip_Fentanyl = "Inhale du fentanyl pour oublier tes problèmes avec les zombies. Peut causer un malaise.",
+Tooltip_Acid = "Avale-le pour faire un trip d'acide. Peut causer une dépendance.",
+Tooltip_Shrooms = "On dirait que tu aimes penser différemment. C'est bien. Pas de dépendance ni d'intoxication.",
+Tooltip_RefinedCoca = "Peut être séché pour obtenir de la cocaïne.",
+
+Tooltip_Loperamide = "Aide avec l'intoxication alimentaire, utile pour les empoisonnements.",
+Tooltip_Narcan = "S.O.S pour overdose de drogue, a utiliser avec precaution.",
+Tooltip_Bismuth = "Aide avec l'intoxication alimentaire, utile pour les empoisonnements.",
+
+}

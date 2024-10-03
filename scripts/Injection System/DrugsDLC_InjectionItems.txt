@@ -1,0 +1,223 @@
+module DrugsDLC
+{
+    imports 
+    {
+        Base
+    }
+
+    item HeroinSpoonDrug
+    {
+        Weight              = 0.1,
+        Type                = Normal,
+        DisplayName         = Spoon with Drug,
+        DisplayCategory     = Drugs,
+        Icon                = Spoon,
+		Tooltip 		    = Tooltip_SpoonDrug,
+    }
+
+    item MethSpoonDrug
+    {
+        Weight              = 0.1,
+        Type                = Normal,
+        DisplayName         = Spoon with Drug,
+        DisplayCategory     = Drugs,
+        Icon                = Spoon,
+		Tooltip 		    = Tooltip_SpoonDrug,
+    }
+
+    item CrackSpoonDrug
+    {
+        Weight              = 0.1,
+        Type                = Normal,
+        DisplayName         = Spoon with Drug,
+        DisplayCategory     = Drugs,
+        Icon                = Spoon,
+		Tooltip 		    = Tooltip_SpoonDrug,
+    }
+
+    item FentanylSpoonDrug
+    {
+        Weight              = 0.1,
+        Type                = Normal,
+        DisplayName         = Spoon with Drug,
+        DisplayCategory     = Drugs,
+        Icon                = Spoon,
+		Tooltip 		    = Tooltip_SpoonDrug,
+    }
+
+    item AmphSpoonDrug
+    {
+        Weight              = 0.1,
+        Type                = Normal,
+        DisplayName         = Spoon with Drug,
+        DisplayCategory     = Drugs,
+        Icon                = Spoon,
+		Tooltip 		    = Tooltip_SpoonDrug,
+    }
+
+    item CocaineSpoonDrug
+    {
+        Weight              = 0.1,
+        Type                = Normal,
+        DisplayName         = Spoon with Drug,
+        DisplayCategory     = Drugs,
+        Icon                = Spoon,
+		Tooltip 		    = Tooltip_SpoonDrug,
+    }
+
+item HeroinNeedle
+    {
+        DisplayName					= Needle with Heroin,
+		DisplayCategory             = Drugs,
+		Type						= Food,
+		Weight						= 0.1,
+		Icon						= HeroinNeedle,
+		Packaged 					= FALSE,
+		FatigueChange	        	= 20,
+		UnhappyChange				= -60,  
+		HungerChange 				= -70,
+		ThirstChange				= 5,
+		EnduranceChange 			= 5,
+		BoredomChange 				= -90,
+		PainReduction 				= 90,
+		StressChange				= -69,  
+		Poison 						= True,
+		PoisonPower					= 6,    
+		ReduceInfectionPower     	= 2,  
+		ReplaceOnUse	        	= DrugsDLC.Needle,
+		CustomContextMenu 		    = Inject,
+		CustomEatSound 				= injectdrugs,
+        WorldStaticModel 			= DrugNeedle,
+		Tooltip 					= Tooltip_HeroinNeedle,
+    }
+
+item CocaineNeedle
+    {
+        DisplayName					= Needle with Cocaine,
+		DisplayCategory             = Drugs,
+		Type						= Food,
+		Weight						= 0.1,
+		Icon						= HeroinNeedle,
+		Packaged 					= FALSE,
+		FatigueChange	        	= -100,
+		UnhappyChange				= -100,  
+		HungerChange 				= -100,
+		ThirstChange				= 1,
+		EnduranceChange 			= 60,
+		BoredomChange 				= -90,
+		PainReduction 				= 190,
+		StressChange				= -69,  
+		Poison 						= True,
+		PoisonPower					= 14,    
+		ReduceInfectionPower     	= 2,  
+		ReplaceOnUse	        	= DrugsDLC.Needle,
+		CustomContextMenu 		    = Inject,
+		CustomEatSound 				= injectdrugs,
+        WorldStaticModel 			= DrugNeedle,
+		Tooltip 					= Tooltip_HeroinNeedle,
+    }
+
+item MethNeedle
+    {
+        DisplayName					= Needle with Meth,
+		DisplayCategory             = Drugs,
+		Type						= Food,
+		Weight						= 0.1,
+		Icon						= HeroinNeedle,
+		Packaged 					= FALSE,
+		FatigueChange	        	= -70,
+		UnhappyChange				= -70,  
+		HungerChange 				= -70,
+		ThirstChange				= 1,
+		EnduranceChange 			= 40,
+		BoredomChange 				= -80,
+		PainReduction 				= 70,
+		StressChange				= -69,  
+		Poison 						= True,
+		PoisonPower					= 13,    
+		ReduceInfectionPower     	= 2,  
+		ReplaceOnUse	        	= DrugsDLC.Needle,
+		CustomContextMenu 		    = Inject,
+		CustomEatSound 				= injectdrugs,
+        WorldStaticModel 			= DrugNeedle,
+		Tooltip 					= Tooltip_HeroinNeedle,
+    }
+    
+item CrackNeedle
+    {
+        DisplayName					= Needle with Crack,
+		DisplayCategory             = Drugs,
+		Type						= Food,
+		Weight						= 0.1,
+		Icon						= HeroinNeedle,
+		Packaged 					= FALSE,
+		FatigueChange	        	= -60,
+		UnhappyChange				= -100,  
+		HungerChange 				= -60,
+		ThirstChange				= 1,
+		EnduranceChange 			= 30,
+		BoredomChange 				= -150,
+		PainReduction 				= 90,
+		StressChange				= -69,  
+		Poison 						= True,
+		PoisonPower					= 14,    
+		ReduceInfectionPower     	= 2,  
+		ReplaceOnUse	        	= DrugsDLC.Needle,
+		CustomContextMenu 		    = Inject,
+		CustomEatSound 				= injectdrugs,
+        WorldStaticModel 			= DrugNeedle,
+		Tooltip 					= Tooltip_HeroinNeedle,
+    }
+
+item FentanylNeedle
+    {
+        DisplayName					= Needle with Fentanyl,
+		DisplayCategory             = Drugs,
+		Type						= Food,
+		Weight						= 0.1,
+		Icon						= HeroinNeedle,
+		Packaged 					= FALSE,
+		FatigueChange	        	= -200,
+		UnhappyChange				= -200,  
+		HungerChange 				= -200,
+		ThirstChange				= 1,
+		EnduranceChange 			= 100,
+		BoredomChange 				= -190,
+		PainReduction 				= 190,
+		StressChange				= -69,  
+		Poison 						= True,
+		PoisonPower					= 17,    
+		ReduceInfectionPower     	= 2,  
+		ReplaceOnUse	        	= DrugsDLC.Needle,
+		CustomContextMenu 		    = Inject,
+		CustomEatSound 				= injectdrugs,
+        WorldStaticModel 			= DrugNeedle,
+		Tooltip 					= Tooltip_HeroinNeedle,
+    }
+
+item AmphNeedle
+    {
+        DisplayName					= Needle with Cocaine,
+		DisplayCategory             = Drugs,
+		Type						= Food,
+		Weight						= 0.1,
+		Icon						= HeroinNeedle,
+		Packaged 					= FALSE,
+		FatigueChange	        	= -70,
+		UnhappyChange				= -80,  
+		HungerChange 				= -70,
+		ThirstChange				= 1,
+		EnduranceChange 			= 50,
+		BoredomChange 				= -90,
+		PainReduction 				= 80,
+		StressChange				= -69,  
+		Poison 						= True,
+		PoisonPower					= 13,    
+		ReduceInfectionPower     	= 2,  
+		ReplaceOnUse	        	= DrugsDLC.Needle,
+		CustomContextMenu 		    = Inject,
+		CustomEatSound 				= injectdrugs,
+        WorldStaticModel 			= DrugNeedle,
+		Tooltip 					= Tooltip_HeroinNeedle,
+    }
+}

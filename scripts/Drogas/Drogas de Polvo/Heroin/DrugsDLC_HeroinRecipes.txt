@@ -1,0 +1,53 @@
+module DrugsDLC
+{
+
+imports
+	{
+		Base
+	}
+
+recipe Extract Morphine Compound
+	{
+		Pills=1,
+		DrugsDLC.AmmoniaBottle=1,
+		keep Pot=1,
+		NearItem:Oven,
+		Heat:-0.40,
+		
+		Result:DrugsDLC.MorphineCompound=5,
+		Time: 17.0,
+		Sound:BoilingDrugWater,
+		Category: Drugs,
+		SkillRequired:Cooking=2,
+		NeedToBeLearn:true,
+		AnimNode:Pour,
+	}
+
+recipe Produce Refined Heroin
+	{
+		DrugsDLC.MorphineCompound=5,
+		DrugsDLC.IodoricAcidBottle=1,
+		keep Pot=1,
+
+		Result:DrugsDLC.RefinedHeroin=10,
+		Time: 14.0,
+		Category: Drugs,
+		Sound:BoilingDrugWater,
+		SkillRequired:Cooking=2,
+		NeedToBeLearn:true,
+		AnimNode:Pour,
+	}
+
+recipe Dry Refined Heroin
+	{
+		DrugsDLC.RefinedHeroin=7,
+		DrugsDLC.BolsaDeDroga=7,
+
+		Result:DrugsDLC.Heroin=7,
+		Time: 20.0,
+		Sound:DryDrugx,
+		Category: Drugs,
+		CanBeDoneFromFloor:true,
+		NeedToBeLearn:true,
+	}
+}

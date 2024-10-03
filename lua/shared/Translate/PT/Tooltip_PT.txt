@@ -1,0 +1,23 @@
+Tooltip_PT = {
+Tooltip_Meth = "Droga forte. Pode causar abstinência.",
+Tooltip_Crack = "Droga forte. Pode causar abstinência.",
+Tooltip_Heroin = "Droga forte. Pode causar abstinência.",
+Tooltip_DrugPipe = "Basta colocar qualquer coisa, acender e inalar. Talvez você precise de algo para acender.",
+Tooltip_Needle = "Você pode injetar heroína com isso. Pode causar abstinência.",
+Tooltip_Blockcocaine = "Um pacote pesado. Pode ser desempacotado.",
+Tooltip_BagShrooms = "Abra para encontrar muitos cogumelos.",
+Tooltip_MethPipe = "Acenda para ficar muito chapado de metanfetamina. Pode causar abstinência.",
+Tooltip_CrackPipe = "Acenda para ficar muito chapado de metanfetamina. Pode causar abstinência.",
+Tooltip_Cocaine = "Inale para sentir que o mundo é seu. Pode causar abstinência.",
+Tooltip_HeroinNeedle = "Injete heroína e aproveite. Pode causar abstinência.",
+Tooltip_Amphetamines = "Inale anfetaminas para se sentir como um deus. Pode causar abstinência.",
+Tooltip_Xanax = "Tome algumas pílulas para se sentir melhor. Pode causar intoxicação.",
+Tooltip_Fentanyl = "Inale fentanil para esquecer os problemas com os zumbis. Pode causar mal-estar.",
+Tooltip_Acid = "Engula para ter uma viagem de ácido. Pode causar abstinência.",
+Tooltip_Shrooms = "Parece que você gosta de pensar diferente. Isso é bom. Sem abstinência ou intoxicação.",
+Tooltip_RefinedCoca = "Pode ser seco para obter cocaína.",
+Tooltip_Loperamide = "Ajuda com intoxicação alimentar, útil para envenenamentos.",
+Tooltip_Narcan = "S.O.S para overdose de drogas, usar com cuidado.",
+Tooltip_Bismuth = "Ajuda com intoxicação alimentar, útil para envenenamentos.",
+
+}

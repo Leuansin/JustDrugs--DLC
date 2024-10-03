@@ -1,0 +1,50 @@
+module DrugsDLC
+{
+imports
+	{
+		Base
+	}
+
+item FentLibro
+	{
+		Weight			  = 0.3,
+		Type		      =	Literature,
+		DisplayName	      =	Chemistry 101: How to Make Fentanyl,
+        DisplayCategory   = Drugs,
+		Icon		      =	Book,
+		WorldStaticModel  = BookGrey,
+		BoredomChange	  = -50,
+		ColorRed 		  = 228,
+		StressChange	  = -15,
+		NumberOfPages 	  = 69
+		Count 			  = 1,
+		TeachedRecipes 	  = Make Fentanyl Compound;Dry and Pack Fentanyl,
+	}
+
+item Fentanyl
+    {
+        DisplayName                 = Bag of Fentanyl,
+        DisplayCategory             = Drugs,
+        Type                        = Food,
+        Weight                      = 0.1,
+        Icon                        = BagCocaine,
+        Packaged                    = FALSE,
+		FatigueChange	        	= -250,
+		UnhappyChange				= -250,  
+		HungerChange 				= -250,
+		ThirstChange				= 8,
+		EnduranceChange 			= -200,
+		PainReduction 				= -250,
+		BoredomChange 				= -250,
+		StressChange				= -250,  
+		Poison 						= True,
+		PoisonPower					= 15,    
+		ReduceInfectionPower     	= 80,   
+		ReplaceOnUse	        	= DrugsDLC.BolsaDeDroga,
+        CustomContextMenu           = Inhale,
+		CustomEatSound              = Snorting,
+        WorldStaticModel 			= CokeBaggy,
+		Tooltip 					= Tooltip_Fentanyl,
+    }
+
+}

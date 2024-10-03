@@ -1,0 +1,77 @@
+module DrugsDLC
+{
+imports
+	{
+		Base
+	}
+
+
+item EphedrineBottle
+	{
+		Weight		      =	0.2,
+		Type		      =	Normal,
+		DisplayName	      =	Bottle of Ephedrine,
+        DisplayCategory   = Drugs,
+		Icon		      =	EphedrineBottle,
+		WorldStaticModel  = Bottle,
+		Count			  = 1,
+
+	}
+
+item IodoricAcidBottle
+	{
+		Weight		      =	0.2,
+		Type		      =	Normal,
+		DisplayName	      =	Bottle of Iodoric Acid,
+        DisplayCategory   = Drugs,
+		Icon		      =	IodonicAcidBottle,
+		WorldStaticModel  = Bottle,
+		Count			  = 1,
+	}
+
+item AmmoniaBottle
+	{
+		Weight		      =	0.2,
+		Type		      =	Normal,
+		DisplayName	      =	Bottle of Ammonia,
+        DisplayCategory   = Drugs,
+		Icon		      =	Ammonia,
+		WorldStaticModel  = Bottle,
+		Count			  = 1,
+	}
+
+item PhenyBottle
+	{
+		Weight		      =	0.2,
+		Type		      =	Normal,
+		DisplayName	      =	Bottle of Phenylethylamine,
+        DisplayCategory   = Drugs,
+		Icon		      =	PhenyBottle,
+		WorldStaticModel  = Bottle,
+		Count			  = 1,
+	}
+
+item PotassiumBottle
+	{
+		Weight		      =	0.2,
+		Type		      =	Normal,
+		DisplayName	      =	Bottle of Potassium Hydroxide,
+        DisplayCategory   = Drugs,
+		Icon		      =	Potassiox,
+		WorldStaticModel  = Bottle,
+		Count			  = 1,
+	}
+
+item EthanolBottle
+	{
+		Weight		      =	0.2,
+		Type		      =	Normal,
+		DisplayName	      =	Bottle of Ethanol,
+        DisplayCategory   = Drugs,
+		Icon		      =	EthanolBottle,
+		WorldStaticModel  = Bottle,
+		Count			  = 1,
+	}
+
+
+}

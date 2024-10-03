@@ -1,0 +1,24 @@
+Tooltip_PL = {
+Tooltip_Meth = "Silny narkotyk. Może powodować uzależnienie.",
+Tooltip_Crack = "Silny narkotyk. Może powodować uzależnienie.",
+Tooltip_Heroin = "Silny narkotyk. Może powodować uzależnienie.",
+Tooltip_DrugPipe = "Po prostu włóż coś, zapal i wdychaj. Może być potrzebne coś do zapalenia.",
+Tooltip_Needle = "Możesz wstrzyknąć heroinę za pomocą tego. Może powodować uzależnienie.",
+Tooltip_Blockcocaine = "Ciężka paczka. Można rozpakować.",
+Tooltip_BagShrooms = "Otwórz, aby znaleźć wiele grzybów.",
+Tooltip_MethPipe = "Zapal, aby mocno się odurzyć metamfetaminą. Może powodować uzależnienie.",
+Tooltip_CrackPipe = "Zapal, aby mocno się odurzyć metamfetaminą. Może powodować uzależnienie.",
+Tooltip_Cocaine = "Wdychaj, aby poczuć, że świat należy do ciebie. Może powodować uzależnienie.",
+Tooltip_HeroinNeedle = "Wstrzyknij heroinę i ciesz się. Może powodować uzależnienie.",
+Tooltip_Amphetamines = "Wdychaj amfetaminy, aby poczuć się jak bóg. Może powodować uzależnienie.",
+Tooltip_Xanax = "Weź kilka tabletek, aby poczuć się lepiej. Może powodować zatrucie.",
+Tooltip_Fentanyl = "Wdychaj fentanyl, aby zapomnieć o problemach z zombie. Może powodować złe samopoczucie.",
+Tooltip_Acid = "Połknij, aby odbyć podróż kwasową. Może powodować uzależnienie.",
+Tooltip_Shrooms = "Wygląda na to, że lubisz myśleć inaczej. Po prostu dobrze. Bez uzależnienia ani zatrucia.",
+Tooltip_RefinedCoca = "Można wysuszyć, aby uzyskać kokainę.",
+Tooltip_Loperamide = "Pomaga w zatruciach pokarmowych, przydatny w przypadku zatrucia.",
+Tooltip_Narcan = "S.O.S w przypadku przedawkowania narkotyków, używać ostrożnie.",
+Tooltip_Bismuth = "Pomaga w zatruciach pokarmowych, przydatny w przypadku zatrucia.",
+
+
+}

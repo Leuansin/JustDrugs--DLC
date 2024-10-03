@@ -1,0 +1,65 @@
+module DrugsDLC
+{
+
+imports
+	{
+		Base
+	}
+
+recipe Extract Psilocybin
+	{
+		MushroomGeneric1/MushroomGeneric2/MushroomGeneric3/MushroomGeneric4/MushroomGeneric5/MushroomGeneric6/MushroomGeneric7=1,
+		keep Pot=1,
+
+		Result:DrugsDLC.PsilocybinCompound=15,
+		Time: 30.0,
+		Category: Drugs,
+		Sound:PutItemInBag,
+		SkillRequired:Cooking=2,
+		NeedToBeLearn:true,
+		AnimNode:Pour,
+	}
+
+recipe Mix Psilocybin Compound
+	{
+		MushroomGeneric1/MushroomGeneric2/MushroomGeneric3/MushroomGeneric4/MushroomGeneric5/MushroomGeneric6/MushroomGeneric7=1,
+		DrugsDLC.PsilocybinCompound=5,
+		DrugsDLC.PhenyCompound=1,
+		Disinfectant=1,
+		keep Pot=1,
+
+		Result:DrugsDLC.RawShrooms=6,
+		Time: 14.0,
+		Category: Drugs,
+		Sound:BoilingDrugWater,
+		SkillRequired:Cooking=2,
+		NeedToBeLearn:true,
+		AnimNode:Pour,
+	}
+
+recipe Grow and Pack Shrooms
+	{
+		DrugsDLC.RawShrooms=6,
+		DrugsDLC.BolsaDeDroga=1,
+		keep Gloves_LeatherGloves/Gloves_LeatherGlovesBlack/Gloves_LongWomenGloves/Gloves_Surgical/Gloves_WhiteTINT=1,
+		keep Hat_NBCmask/Hat_SurgicalMask_Blue/Hat_SurgicalMask_Green/Hat_BandanaMaskTINT/Hat_BandanaMask/Hat_DustMask/Hat_GasMask=1,
+		Disinfectant=1,
+		
+		Result:DrugsDLC.BagShrooms=1,
+		Time: 20.0,
+		Category: Drugs,
+		Sound:DryDrugx,
+		CanBeDoneFromFloor:true,
+		NeedToBeLearn:true,
+	}
+
+recipe Open Bag Of Shrooms
+	{
+	   DrugsDLC.BagShrooms=1,
+	   Result:DrugsDLC.Shrooms=6,
+	   Time:30.0,
+	   Category:Drugs,
+	   Sound:PutItemInBag,
+	   CanBeDoneFromFloor:true,
+	}
+}

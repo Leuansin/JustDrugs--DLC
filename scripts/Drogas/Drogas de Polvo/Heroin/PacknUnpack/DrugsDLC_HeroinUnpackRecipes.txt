@@ -1,0 +1,113 @@
+module DrugsDLC
+{
+imports
+	{
+		Base
+	}
+    
+recipe Unpack Package
+    {
+        DrugsDLC.5HeroinPack=1,
+        DrugsDLC.BolsaDeDroga=5,
+
+        Result:DrugsDLC.Heroin=5,
+        Time: 5.0,
+        Category: Drugs,
+        AnimNode: Loot,
+        Sound:PutItemInBag,
+        CanBeDoneFromFloor:true,
+    }
+
+recipe Unpack Package
+    {
+        DrugsDLC.10HeroinPack=1,
+        DrugsDLC.BolsaDeDroga=10,
+
+        Result:DrugsDLC.Heroin=10,
+        Time: 10.0,
+        Category: Drugs,
+        Sound:PutItemInBag,
+        AnimNode: Loot,
+        CanBeDoneFromFloor:true,
+    }
+
+recipe Unpack Package
+    {
+        DrugsDLC.20HeroinPack=1,
+        DrugsDLC.BolsaDeDroga=20,
+
+        Result:DrugsDLC.Heroin=20,
+        Time: 15.0,
+        Category: Drugs,
+        Sound:PutItemInBag,
+        AnimNode: Loot,
+        CanBeDoneFromFloor:true,
+    }
+
+recipe Unpack Package
+    {
+        DrugsDLC.100HeroinPack=1,
+        DrugsDLC.BolsaDeDroga=100,
+
+        Result:DrugsDLC.Heroin=100,
+        Time: 5.0,
+        Category: Drugs,
+        AnimNode: Loot,
+        Sound:PutItemInBag,
+        CanBeDoneFromFloor:true,
+    }
+
+-- Cambio de Unpackaging
+
+recipe Unpack Into Packages
+    {
+        DrugsDLC.10HeroinPack=1,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=2,
+
+        Result:DrugsDLC.5HeroinPack=2,
+        Time: 10.0,
+        Category: Drugs,
+        Sound:PutItemInBag,
+        AnimNode: Loot,
+        CanBeDoneFromFloor:true,
+    }
+
+recipe Unpack Into Packages
+    {
+        DrugsDLC.20HeroinPack=1,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=2,
+        Result:DrugsDLC.10HeroinPack=2,
+        Time: 20.0,
+        Category: Drugs,
+        AnimNode: Loot,
+        Sound:PutItemInBag,
+        CanBeDoneFromFloor:true,
+    }
+
+recipe Unpack Into Packages
+    {
+        DrugsDLC.100HeroinPack=1,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=5,
+
+        Result:DrugsDLC.20HeroinPack=5,
+        Time: 50.0,
+        Sound:PutItemInBag,
+        Category: Drugs,
+        AnimNode: Loot,
+        CanBeDoneFromFloor:true,
+    }
+
+recipe Unpack Into Packages
+    {
+        DrugsDLC.1000HeroinPack=1,
+		Scotchtape/Wire/Twine/String/SheetRope/Rope/DuctTape=6,
+
+        Result:DrugsDLC.100HeroinPack=10,
+        Time: 100.0,
+        Category: Drugs,
+        AnimNode: Loot,
+        Sound:PutItemInBag,
+        CanBeDoneFromFloor:true,
+    }
+
+}

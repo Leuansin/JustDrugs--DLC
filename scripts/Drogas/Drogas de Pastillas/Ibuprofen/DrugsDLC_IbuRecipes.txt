@@ -1,0 +1,21 @@
+module DrugsDLC
+{
+
+imports
+	{
+		Base
+	}
+
+recipe Take Pills Out
+{
+	DrugsDLC.IbuprofenBox=1,
+	Result:DrugsDLC.Ibuprofen=12,
+	Time: 2.0,
+	Category: Drugs,
+	Sound: shakepills,
+	AnimNode:Pour,
+}
+
+
+
+}

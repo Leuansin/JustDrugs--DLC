@@ -1,0 +1,8 @@
+ContextMenu_PTBR = {
+
+ContextMenu_Inhale = "Inalar",
+ContextMenu_Inject = "Injetar",
+ContextMenu_Swallow = "Engolir",
+ContextMenu_Eat Shrooms = "Comer Cogumelos",
+ContextMenu_Take Pill = "Tomar Pílula",
+}

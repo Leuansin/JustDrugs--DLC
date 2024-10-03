@@ -1,0 +1,64 @@
+module DrugsDLC
+{
+
+imports
+	{
+		Base
+	}
+
+recipe Extract Ephedrine Compound
+	{
+		DrugsDLC.EphedrineBottle=1,
+		DrugsDLC.AmmoniaBottle=1,
+		keep Pot=1,
+		NearItem:Oven,
+		Heat:-0.40,
+		
+		Result:DrugsDLC.EphedrineCompound=5,
+		Time: 17.0,
+		Category: Drugs,
+		SkillRequired:Cooking=2,
+		Sound:BoilingDrugWater,
+		NeedToBeLearn:true,
+		AnimNode:Pour,
+	}
+
+recipe Produce Meth Compound
+	{
+		DrugsDLC.EphedrineCompound=5,
+		DrugsDLC.IodoricAcidBottle=1,
+		keep Pot=1,
+
+		Result:DrugsDLC.MethCompound=10,
+		Time: 14.0,
+		Sound:BoilingDrugWater,
+		Category: Drugs,
+		SkillRequired:Cooking=2,
+		NeedToBeLearn:true,
+		AnimNode:Pour,
+	}
+
+recipe Dry The Meth Compound
+	{
+		DrugsDLC.MethCompound=7,
+		DrugsDLC.BolsaDeDroga=5,
+
+		Result:DrugsDLC.Meth=5,
+		Time: 20.0,
+		Category: Drugs,
+		CanBeDoneFromFloor:true,
+		Sound:DryDrugx,
+		NeedToBeLearn:true,
+	}
+
+
+recipe Add Meth To Pipe
+	{
+	   DrugsDLC.Meth,
+	   DrugsDLC.DrugPipe/Aluminum,
+	   Result: DrugsDLC.MethPipe,
+	   Time: 60.0,
+	   Sound:DryDrugx,
+	   Category: Drugs,
+	}
+}

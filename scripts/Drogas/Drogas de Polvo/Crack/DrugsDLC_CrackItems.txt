@@ -1,0 +1,75 @@
+module DrugsDLC
+{
+imports
+	{
+		Base
+	}
+
+item CrackLibro
+	{
+		Weight			  = 0.3,
+		Type		      =	Literature,
+		DisplayName	      =	Chemistry 101: Crack,
+        DisplayCategory   = Drugs,
+		Icon		      =	Book,
+		WorldStaticModel  = BookGrey,
+		BoredomChange	  = -50,
+		ColorRed 		  = 228,
+		StressChange	  = -15,
+		NumberOfPages 	  = 420,
+		Count 			  = 1,
+		TeachedRecipes 	  = Extract Crack Compound;Dry and Pack the Crack,
+	}
+
+item CrackPipe
+	{
+		DisplayName					= Pipe with Crack,
+		DisplayCategory             = Drugs,
+		Type						= Food,
+		Weight						= 0.6,
+		Icon						= DrugPipe,
+		Packaged 					= FALSE,
+		FatigueChange	        	= -35,
+		UnhappyChange				= -30,  
+		HungerChange 				= -30,
+		ThirstChange				= 15,
+		EnduranceChange 			= 20,
+		BoredomChange 				= -30,
+		StressChange				= -69,  
+		Poison 						= True,
+		PoisonPower					= 8,    
+		ReduceInfectionPower     	= 25,  
+		RequireInHandOrInventory	= Lighter/Matches,
+		ReplaceOnUse	        	= DrugsDLC.DrugPipe,	
+		CustomContextMenu			= Smoke Crack,
+		CustomEatSound 				= LighUpMeth,
+        WorldStaticModel 			= DrugPipe,
+		Tooltip 					= Tooltip_CrackPipe,
+	}
+
+item Crack
+	{
+		DisplayName					= Bag of Crack,
+		DisplayCategory             = Drugs,
+		Type						= Food,
+		Weight						= 0.6,
+		Icon						= BagCocaine,
+		Packaged 					= FALSE,
+		FatigueChange	        	= -45,
+		UnhappyChange				= 40,  
+		HungerChange 				= -40,
+		ThirstChange				= 10,
+		EnduranceChange 			= 30,
+		BoredomChange 				= -50,
+		StressChange				= -69,  
+		Poison 						= True,
+		PoisonPower					= 5,    
+		ReduceInfectionPower     	= 28,  
+		ReplaceOnUse	        	= DrugsDLC.BolsaDeDroga,
+		CustomContextMenu 		    = Inhale,
+		CustomEatSound 				= Snorting,
+        WorldStaticModel 			= CokeBaggy,
+		Tooltip 					= Tooltip_Crack,
+	}
+
+}

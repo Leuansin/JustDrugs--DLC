@@ -1,0 +1,6 @@
+IGUI_PL = {
+
+IGUI_CraftCategory_Drugs = "Narkotyki",
+IGUI_ItemCat_Drugs = "Narkotyki",
+IGUI_ItemCat_Item = "Przedmiot",
+}

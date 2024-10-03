@@ -1,0 +1,8 @@
+ContextMenu_PL = {
+
+ContextMenu_Inhale = "Wdychaj",
+ContextMenu_Inject = "Wstrzyknij",
+ContextMenu_Swallow = "Połknij",
+ContextMenu_Eat Shrooms = "Zjedz Grzyby",
+ContextMenu_Take Pill = "Weź Tabletkę",
+}

@@ -1,0 +1,6 @@
+IGUI_NO = {
+
+IGUI_CraftCategory_Drugs = "Rusmidler",
+IGUI_ItemCat_Drugs = "Rusmidler",
+IGUI_ItemCat_Item = "Gjenstand",
+}

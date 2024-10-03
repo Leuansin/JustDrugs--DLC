@@ -1,0 +1,8 @@
+IGUI_ES = {
+
+    IGUI_CraftCategory_Drugs = "Drogas",
+    IGUI_ItemCat_Drugs = "Drogas",
+    IGUI_ItemCat_Item = "Item",
+    IGUI_Intoxicacion_Levellow = "I'm feeling a Little bit overdosed, i should find Loperamide.",
+    IGUI_Intoxicacion_Levelhigh = "Damn im having an overdose, i should find Bismuth or Narcan.",
+}
