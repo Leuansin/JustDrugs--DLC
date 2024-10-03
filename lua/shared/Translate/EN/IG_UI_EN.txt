@@ -6,4 +6,6 @@ IGUI_EN = {
     IGUI_Intoxicacion_Levellow = "I'm feeling a Little bit overdosed, i should find Loperamide.",
     IGUI_Intoxicacion_Levelmid = "I'm havin symptoms of overdose, i should find Bismuth Subsalicylate.",
     IGUI_Intoxicacion_Levelhigh = "Damn im having an overdose, i should find Narcan.",
+    IGUI_DrogadictoTrait = "Drug Addict",
+    IGUI_DrogadictoDescription = "Add quick description",
 }

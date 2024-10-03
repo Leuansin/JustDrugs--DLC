@@ -2,9 +2,8 @@ DrugsDLC = {}
 
 -- Crear el trait "Drogadicto"
 DrugsDLC.TraitDrogadicto = function()
-    local TraitAdicto = TraitFactory.addTrait("Drogadicto", "Drug  Addict", -8,
-        "You like to confront problems in a different way. But your body will ask for more every 12 hours.\nYou can eventually outgrow your addiction if you don't consume for 21 days in a row.",
-        false, false);
+    local TraitAdicto = TraitFactory.addTrait("Drogadicto", player:Say(getText("IGUI_DrogadictoTrait")), -8,
+    player:Say(getText("IGUI_DrogadictoDescription")),false, false);
 
     TraitFactory.sortList();
     local traitList = TraitFactory.getTraits()
