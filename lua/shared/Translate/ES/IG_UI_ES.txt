@@ -1,5 +1,4 @@
 IGUI_ES = {
-
     IGUI_CraftCategory_Drugs = "Drogas",
     IGUI_ItemCat_Drugs = "Drogas",
     IGUI_ItemCat_Item = "Item",

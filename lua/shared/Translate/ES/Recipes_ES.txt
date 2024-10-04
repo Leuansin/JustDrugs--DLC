@@ -32,7 +32,6 @@ Recipes_ES = {
 	Recipe_Make_BenzodiazepineCompound = "Extraer Benzodiazepina",
 	Recipe_Produce_Xanax_Compound = "Producir Componente del Xanax",
 	Recipe_Dry_Xanax_Compound = "Secar y Embolsar",
-
 	Recipe_Pack_5_Tablets_of_Acid = "Hacer Paquete de 5 Tabletas",
 	Recipe_Pack_10_Tablets_of_Acid = "Hacer Paquete de 10 Tabletas",
 	Recipe_Pack_20_Tablets_of_Acid = "Hacer Paquete de 20 Tabletas",
@@ -78,5 +77,4 @@ Recipes_ES = {
 	Recipe_Pack_20_Grams_of_Xanax = "Empaqetar 20Gs",
 	Recipe_Pack_100_Grams_of_Xanax = "Empaquetar 100Gs",
 	Recipe_Pack_1kg_of_Xanax = "Hacer Paquete de 1KG",
-
 }
