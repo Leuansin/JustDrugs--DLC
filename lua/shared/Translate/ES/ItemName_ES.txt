@@ -8,21 +8,17 @@ ItemName_ES = {
 	ItemName_DrugsDLC.Amphetamines = "Bolsa con Anfetaminas",
 	ItemName_DrugsDLC.Fentanyl = "Bolsa con Fentanilo",
 	ItemName_DrugsDLC.BagShrooms = "Bolsa con Hongos",
-
 	ItemName_DrugsDLC.BolsaDeDroga = "Bolsa de Droga",
 	ItemName_DrugsDLC.DrugPipe = "Pipa para Drogas",
 	ItemName_DrugsDLC.MethPipe = "Pipa con Metanfetamina",
 	ItemName_DrugsDLC.CrackPipe = "Pipa con Crack",
-
 	ItemName_DrugsDLC.Needle = "Aguja",
-
 	ItemName_DrugsDLC.EphedrineBottle = "Botella de Efedrina",
 	ItemName_DrugsDLC.IodoricAcidBottle = "Botella de Acido Yodorico",
 	ItemName_DrugsDLC.AmmoniaBottle = "Botella de Amoniaco",
 	ItemName_DrugsDLC.PhenyBottle = "Botella de Feniletilamina",
 	ItemName_DrugsDLC.PotassiumBottle = "Botella de Hidroxido de Potasio",
 	ItemName_DrugsDLC.EthanolBottle = "Botella de Etanol",
-
 	ItemName_DrugsDLC.RawShrooms = "Hongos Psilocibinicos Crudos",
 	ItemName_DrugsDLC.RefinedCoca = "Cocaina sin Refinar",
 	ItemName_DrugsDLC.RefinedHeroin = "Heroina sin Refinar",
@@ -39,7 +35,6 @@ ItemName_ES = {
 	ItemName_DrugsDLC.CrackCompound = "Componente del Crack",
 	ItemName_DrugsDLC.MorphineCompound = "Extracto de Morfina",
 	ItemName_DrugsDLC.PhenyCompound = "Componente de Feniletilamina",
-
 	ItemName_DrugsDLC.AcidLibro = "Quimica 101: Acido (LSD)",
 	ItemName_DrugsDLC.PhenyLibro = "Quimica 101: Feniletilamina",
 	ItemName_DrugsDLC.AmphLibro = "Quimica 101: Anfetaminas",
@@ -50,7 +45,6 @@ ItemName_ES = {
 	ItemName_DrugsDLC.MethLibro = "Quimica 101: Metanfetaminas",
 	ItemName_DrugsDLC.HongosLibro = "Quimica 101: Hongos y Psilocibina",
 	ItemName_DrugsDLC.XanaxLibro = "Quimica 101: Xanax",
-
 	ItemName_DrugsDLC.5AcidPack = "Paquete de LSD (5)",
 	ItemName_DrugsDLC.10AcidPack = "Paquete de LSD (10)",
 	ItemName_DrugsDLC.20AcidPack = "Paquetes de LSD (20)",
@@ -96,10 +90,8 @@ ItemName_ES = {
 	ItemName_DrugsDLC.20XanaxPack = "Paquetes de Xanax (20)",
 	ItemName_DrugsDLC.100XanaxPack = "Paquetes de Xanax (100)",
 	ItemName_DrugsDLC.1000XanaxPack = "Paquete de Xanax (1KG)",
-
 	ItemName_DrugsDLC.Bismuth = "Subsalicilato de Bismuto",
 	ItemName_DrugsDLC.Loperamide = "Loperamida",
 	ItemName_DrugsDLC.NarcanSOS = "NarCan - S.O.S Sobredosis",
-
 	ItemName_DrugsDLC.Acetaminophen = "Acetaminofeno",
 }

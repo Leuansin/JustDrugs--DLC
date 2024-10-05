@@ -31,5 +31,5 @@ Tooltip_EN = {
     Tooltip_Vicodin = "A potent pain reliever; risk of overdose and addiction present.",
     Tooltip_Morphine = "Strong Anesthetic Drug, Risk of Overdose.",
     Tooltip_MorphineBottle = "Bottle with Morphine, can be added to a Needle.",
-
+    
 }

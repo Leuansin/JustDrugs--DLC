@@ -1,5 +1,4 @@
 ContextMenu_EN = {
-
 	ContextMenu_Inhale = "Inhale",
 	ContextMenu_Inject = "Inject",
 	ContextMenu_Swallow = "Swallow",
