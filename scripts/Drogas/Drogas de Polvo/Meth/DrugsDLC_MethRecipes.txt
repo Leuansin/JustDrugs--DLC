@@ -11,8 +11,6 @@ recipe Extract Ephedrine Compound
 		DrugsDLC.EphedrineBottle=1,
 		DrugsDLC.AmmoniaBottle=1,
 		keep Pot=1,
-		NearItem:Oven,
-		Heat:-0.40,
 		
 		Result:DrugsDLC.EphedrineCompound=5,
 		Time: 17.0,

@@ -1,9 +1,40 @@
 DrugsDLC = {}
 
+-- Crear el trait "Drug Lord"
+DrugsDLC.TraitFarmaceutico = function()
+    local TraitWalterWhite = TraitFactory.addTrait("Farmaceutico", getText("IGUI_FarmaceuticoTrait"), 2, getText("IGUI_FarmaceuticoDescription"), false, false);
+
+    TraitWalterWhite:getFreeRecipes():add("Make Lean");
+    TraitWalterWhite:getFreeRecipes():add("Make Oxycodone Compound");
+    TraitWalterWhite:getFreeRecipes():add("Make Percocet");
+
+    TraitWalterWhite:getFreeRecipes():add("Make Adderall Compound");
+    TraitWalterWhite:getFreeRecipes():add("Make Oxycodone");
+    TraitWalterWhite:getFreeRecipes():add("Make Tramadol Compound");
+
+    TraitWalterWhite:getFreeRecipes():add("Make Benzodiazepine Compound");
+    TraitWalterWhite:getFreeRecipes():add("Make Codeine Compound");
+    TraitWalterWhite:getFreeRecipes():add("Make Codeine");
+
+    TraitWalterWhite:getFreeRecipes():add("Make Vicodin Compound");
+    TraitWalterWhite:getFreeRecipes():add("Make Vicodin");
+    TraitWalterWhite:getFreeRecipes():add("Make Morphine Compound");
+
+    TraitWalterWhite:getFreeRecipes():add("Make Morphine");
+
+    TraitFactory.sortList();
+    local traitList = TraitFactory.getTraits()
+
+    for i = 1, traitList:size() do
+        local trait = traitList:get(i - 1)
+        BaseGameCharacterDetails.SetTraitDescription(trait)
+    end
+end
+-- Fin Creación Trait
+
 -- Crear el trait "Drogadicto"
 DrugsDLC.TraitDrogadicto = function()
-    local TraitAdicto = TraitFactory.addTrait("Drogadicto", player:Say(getText("IGUI_DrogadictoTrait")), -8,
-    player:Say(getText("IGUI_DrogadictoDescription")),false, false);
+    local TraitAdicto = TraitFactory.addTrait("Drogadicto", getText("IGUI_DrogadictoTrait"), -8, getText("IGUI_DrogadictoDescription"),false, false);
 
     TraitFactory.sortList();
     local traitList = TraitFactory.getTraits()
@@ -17,8 +48,7 @@ end
 
 -- Crear el trait "Drug Lord"
 DrugsDLC.TraitWalterWhite = function()
-    local TraitWalterWhite = TraitFactory.addTrait("WalterWhite", "Drug Lord", 4,
-        "You were always smarter than the rest. ¡You were the one making & selling the drugs to them!\nSpawn with all the recipes learned, no need to find the books to craft drugs!", false, false);
+    local TraitWalterWhite = TraitFactory.addTrait("WalterWhite", getText("IGUI_WalterWhiteTrait"), 4, getText("IGUI_WalterWhiteDescription"), false, false);
 
     TraitWalterWhite:getFreeRecipes():add("Make Ephedrine Compound");
     TraitWalterWhite:getFreeRecipes():add("Produce Meth Compound");
@@ -87,13 +117,19 @@ DrugsDLC.IncreaseEffectsEveryHour = function()
 
     local Intoxicacion = bodyDamage:getPoisonLevel()
 
-    if Intoxicacion >= 5 then
-        player:Say("Im a little intoxicated, should find Loperamide.")
-
-        if Intoxicacion == 60 then
-            player:Say("Im having an Overdose. I Need Narcan ASAP!")
+    if Intoxicacion >= 1 then
+        if Intoxicacion >= 5 then
+            player:Say(getText("IGUI_Intoxicacion_Levellow"))
         end
 
+
+        if Intoxicacion == 30 then
+            player:Say(getText("IGUI_Intoxicacion_Levelmid"))
+        end
+
+        if Intoxicacion >= 60 then
+            player:Say(getText("IGUI_Intoxicacion_Levelhigh"))
+        end
     end
 
     if player:HasTrait("Drogadicto") then
@@ -179,44 +215,43 @@ DrugsDLC.AbstinenceSystem = function()
             stats:setPain(newPain)
             stats:setAnger(newAnger)
 
-            player:Say("¡Damn!, I feel like i need some drugs...")
-            
+            player:Say(getText("IGUI_Need_Drugs"))
         end
 
         -- Este 'if' es utilizado solamente, para poder colapsar todo y asi ahorrar espacio visual
         if modData.abstinenceTimer >= 0 then
             -- 2 Days
             if modData.abstinenceTimer == 48 then
-                player:Say("Damn, I'm starting to feel the abstinence...")
+                player:Say(getText("IGUI_2days_Abstinence"))
             end
 
             -- 3 Days
             if modData.abstinenceTimer == 72 then
-                player:Say("72 Hours, this should be the peak of abstinence...")
+                player:Say(getText("IGUI_72_Abstinence"))
             end
 
             if modData.abstinenceTimer == 73 then
-                player:Say("¡I NEED THEM!")
+                player:Say(getText("IGUI_73_Abstinence"))
             end
 
             if modData.abstinenceTimer == 96 then
-                player:Say("I would kill for some Shrooms.")
+                player:Say(getText("IGUI_96_Abstinence"))
             end
 
             if modData.abstinenceTimer == 115 then
-                player:Say("115 Hours without Drugs... Im really proud.")
+                player:Say(getText("IGUI_115_Abstinence"))
             end
 
             if modData.abstinenceTimer == 168 then
-                player:Say("1 Week without them, i gotta stop thinking about it.")
+                player:Say(getText("IGUI_168_Abstinence"))
             end
 
             if modData.abstinenceTimer == 300 then
-                player:Say("I kinda like being sober...")
+                player:Say(getText("IGUI_300_Abstinence"))
             end
 
             if modData.abstinenceTimer == 400 then
-                player:Say("I really like being sober")
+                player:Say(getText("IGUI_400_Abstinence"))
             end
         end
 
@@ -226,7 +261,7 @@ DrugsDLC.AbstinenceSystem = function()
 
             modData.abstinenceTimer = 0
             player:getTraits():remove("Drogadicto")
-            player:Say("¿21 Days in a row? Huh, Guess i don't need them anymore.")
+            player:Say(getText("IGUI_Beat_DrugAddiction"))
             bodyDamage:setFoodSicknessLevel(0) -- Reestablecemos el Food Poisoning
         end
     else
@@ -265,6 +300,8 @@ DrugsDLC.AbstinenceSystem = function()
 
         if modData.consumidoTimer >= 100 then
             player:getTraits():add("Drogadicto")
+            player:Say(getText("IGUI_Start_ofAddiction"))
+
         end
     end
 end
@@ -277,3 +314,4 @@ Events.EveryHours.Add(DrugsDLC.AbstinenceSystem)
 -- Añadir el trait al juego
 Events.OnGameBoot.Add(DrugsDLC.TraitDrogadicto)
 Events.OnGameBoot.Add(DrugsDLC.TraitWalterWhite)
+Events.OnGameBoot.Add(DrugsDLC.TraitFarmaceutico)

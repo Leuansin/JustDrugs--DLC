@@ -22,7 +22,6 @@ recipe Make Tramadol Compound
 		DrugsDLC.OxycodoneCompound=1,
 		keep Pot=1,
 		NearItem:Oven,
-		Heat:-0.40,
 
 		Result:DrugsDLC.TramadolCompound=6,
 		Time: 17.0,

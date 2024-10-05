@@ -6,24 +6,25 @@ imports
 		Base
 	}
 
-recipe Take Pills Out
+recipe Add Morphine into Needle
 {
-	DrugsDLC.PercocetBottle=1,
-	Result:DrugsDLC.Percocet=12,
+	DrugsDLC.MorphineBottle=1,
+	Result:DrugsDLC.MorphineNeedle=1,
 	Time: 2.0,
 	Category: Drugs,
 	Sound: shakepills,
 	AnimNode:Pour,
 }
 
-recipe Make Oxycodone Compound
+recipe Make Morphine Compound
 	{
-		keep DrugsDLC.MorphineCompound=1,
-		DrugsDLC.Acetaminofeno=1,
+		DrugsDLC.OxycodoneCompound=1,
+		DrugsDLC.AmmoniaBottle=1,
+		Pills=1,
 		keep Pot=1,
 		NearItem:Oven,
 
-		Result:DrugsDLC.OxycodoneCompound=12,
+		Result:DrugsDLC.MorphineCompound=6,
 		Time: 17.0,
 		Category: Drugs,
 		SkillRequired:Cooking=2,
@@ -32,17 +33,18 @@ recipe Make Oxycodone Compound
 		AnimNode:Pour,
 	}
 
-recipe Make Percocet
+recipe Make Morphine
 	{
-		DrugsDLC.OxycodoneCompound=12,
-		DrugsDLC.Acetaminofeno=1,
+		DrugsDLC.MorphineCompound=6,
+		DrugsDLC.XanaxCompound=1,
 		Pills/PopBottleEmpty/WaterBottleEmpty/WhiskeyEmpty/WineEmpty/WineEmpty2/BeerEmpty=1,
 
-		Result:DrugsDLC.PercocetBottle=1,
+		Result:DrugsDLC.MorphineBottle=1,
 		Time: 20.0,
 		Category: Drugs,
 		Sound:DryDrugx,
 		CanBeDoneFromFloor:true,
 		NeedToBeLearn:true,
 	}
+
 }

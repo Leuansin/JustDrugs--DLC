@@ -16,7 +16,6 @@ recipe Make Raw Cocaine Compound
 		DrugsDLC.PotassiumBottle=1,
 		keep Pot=1,
 		NearItem:Oven,
-		Heat:-0.40,
 
 		Result:DrugsDLC.CocaCompound=30,
 		Time: 30.0,

@@ -22,7 +22,6 @@ recipe Make Vicodin Compound
 		DrugsDLC.AmmoniaBottle=1,
 		keep Pot=1,
 		NearItem:Oven,
-		Heat:-0.40,
 
 		Result:DrugsDLC.VicodinCompound=6,
 		Time: 17.0,

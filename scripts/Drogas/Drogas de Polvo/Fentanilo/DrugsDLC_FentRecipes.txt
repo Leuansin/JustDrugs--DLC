@@ -13,7 +13,7 @@ recipe Make Fentanyl Compound
 		keep Pot=1,
 		NearItem:Oven,
 		Sound:BoilingDrugWater,
-		Heat:-0.40,
+
 		Result:DrugsDLC.FentanylCompound=12,
 		Time: 17.0,
 		Category: Drugs,

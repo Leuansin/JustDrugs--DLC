@@ -22,7 +22,7 @@ recipe Make Adderall Compound
 		PillsVitamins=1,
 		keep Pot=1,
 		NearItem:Oven,
-		Heat:-0.40,
+		
 		Result:DrugsDLC.BenzoCompound=12,
 		Time: 17.0,
 		Category: Drugs,

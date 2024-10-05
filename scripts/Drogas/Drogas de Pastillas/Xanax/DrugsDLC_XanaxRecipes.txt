@@ -23,7 +23,6 @@ recipe Make Benzodiazepine Compound
 		PillsSleepingTablets=1,
 		keep Pot=1,
 		NearItem:Oven,
-		Heat:-0.40,
 
 		Result:DrugsDLC.BenzoCompound=14,
 		Time: 17.0,

@@ -23,7 +23,6 @@ recipe Make Codeine Compound
 		DrugsDLC.XanaxCompound=1,
 		keep Pot=1,
 		NearItem:Oven,
-		Heat:-0.40,
 
 		Result:DrugsDLC.CodeineCompound=6,
 		Time: 17.0,

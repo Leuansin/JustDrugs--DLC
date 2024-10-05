@@ -22,7 +22,6 @@ recipe Make Oxycodone Compound
 		DrugsDLC.Acetaminofeno=1,
 		keep Pot=1,
 		NearItem:Oven,
-		Heat:-0.40,
 
 		Result:DrugsDLC.OxycodoneCompound=12,
 		Time: 17.0,

@@ -12,7 +12,6 @@ recipe Make Acid Base
 		DrugsDLC.PotassiumBottle=1,
 		keep Pot=1,
 		NearItem:Oven,
-		Heat:-0.20,
 		
 		Result:DrugsDLC.ErgotaCompound=5,
 		Time: 17.0,

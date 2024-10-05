@@ -12,7 +12,6 @@ recipe Make Amphetamine Salts
 		DrugsDLC.EthanolBottle=1,
 		keep Pot=1,
 		NearItem:Oven,
-		Heat:-0.40,
 		Result:DrugsDLC.AmphSales=7,
 		Time: 60.0,
 		Category: Drugs,

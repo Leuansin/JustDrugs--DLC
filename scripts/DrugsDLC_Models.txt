@@ -9,7 +9,7 @@ model PastillitaWSM
 {
     mesh = WorldItems/PastillitaWSM,
     texture = WorldItems/Pastilla_Ground,
-    scale = 0.4,
+    scale = 0.35,
 }
 
 model MethBaggy

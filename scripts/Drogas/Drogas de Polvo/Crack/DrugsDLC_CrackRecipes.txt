@@ -12,7 +12,7 @@ recipe Extract Crack Compound
 		DrugsDLC.AmmoniaBottle=1,
 		keep Pot=1,
 		NearItem:Oven,
-		Heat:-0.40,
+
 		Result:DrugsDLC.CrackCompound=5,
 		Time: 17.0,
 		Category: Drugs,

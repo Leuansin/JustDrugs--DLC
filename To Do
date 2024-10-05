@@ -31,19 +31,22 @@ PercLibro
 OxyLibro
 TramadolLibro
 CodeineLibro
+VicodinLibro
+OxyLibro
+MorphineLibro
 
 -- Drogas --
 Adderall
     Decreases Boredom, Unhappiness, Fatigue & Stress
     Increases Slightly Poisoning
-    Can be crafted (Need to be Near Oven and with -0.40 Heat):
+    Can be crafted (Need to be near Oven):
         - Need to find "Chemistry 101: Adderall"
         - Make Adderall Compound: AntiDeps + Vitamins + Pot
         - Pack Adderall: Any Bottle + Benzo Compound + Pot
 Lean
     Decreases Boredom, Pain, Stress
     Increases Infection Tolerance, Poisoning 
-    Can be crafted (Need to be Near Oven and with -0.40 Heat):
+    Can be crafted (Need to be near Oven):
         - Need to find "Chemistry 101: Lean"
         - Orange Soda
         - Any type of pill
@@ -53,7 +56,7 @@ Lean
 Percocet
     Decreases Slightly Boredom, Pain and Unhappiness
     Increases Slightly Poisoning, Fatigue (Tiredness) and Infection Tolerance
-    Can be crafted (Need to be Near Oven and with -0.40 Heat):
+    Can be crafted (Need to be near Oven):
         - Need to find "Chemistry 101: Percocet"
         - Make Oxycodone Compound: Morphine Compound + Acetaminophen + Pot
         - Make Percocet: Oxycodone Compound + Acetaminophen + Empty Bottle + Pot
@@ -61,7 +64,7 @@ Percocet
 Oxycodone
     Decreases Boredom, Unhappiness, Stress and Reduce a lot of pain
     Increases Slightly Fatigue(Tiredness) and Poisoning
-    Can be crafted (Need to be Near Oven and with -0.40 Heat):
+    Can be crafted (Need to be near Oven):
         - Need to find "Chemistry 101: Oxycodone"
         - Make Oxycodone Compound: Morphine Compound + Acetaminophen + Pot
         - Make Oxycodone: Oxycodone Compound + Morphine Compound + Pot
@@ -81,7 +84,7 @@ Ibuprofen
 Tramadol
     Decreases Highly the Pain and Stress
     Increses Poisoning & Fatigue (Tiredness)
-    Can be crafted (Need to be Near Oven and with -0.40 Heat):
+    Can be crafted (Need to be near Oven):
         - Need to find "Chemistry 101: Tramadol"
         - Make Tramadol Compound: Morphine Compound + Oxycodone Compound + Pot
         - Make Tramadol: Tramadol Compound + Xanax Compound + Pot
@@ -89,7 +92,7 @@ Tramadol
 Codeine
     Decreases Pain and Stress
     Increases Fatigue and Poisoning
-    Can be crafted (Need to be Near Oven and with -0.40 Heat):
+    Can be crafted (Need to be near Oven):
         - Need to find "Chemistry 101: Codeine"
         - Make Codeine Compound: Morphine Compound + Oxycodone Compound + Xanax Compound + Pot
         - Make Codeine: Codeine Compound + Empty Bottle + Pot
@@ -98,10 +101,19 @@ Vicodin
     Decreases Highly Pain and Stress
     Increases Fatigue
     Can cause overdose (Only in high quantities)
-    Can be crafted (Need to be Near Oven and with -0.40 Heat):
+    Can be crafted (Need to be near Oven):
         - Need to find "Chemistry 101: Vicodin"
         - Make Vicodin Compound: Morphine Compound + Ammonia Bottle + Pot
         - Make Vicodin: Vicodin Compound + Empty Bottle + Pot
+
+Morphine
+    Decreases Highly the Pain, Stress, Endurance and Unhappiness
+    Increases Highly Fatigue and Poisoning
+    Can cause overdose
+    Can be crafted (Need to be near Oven):
+        - Need to find "Chemistry 101: Morphine"
+        - Make Morphine Compound: Oxycodone Compound + Ammonia Bottle + Sleeping Pills + Pot
+        - Make Morphine: Morphine Compound + Xanax Compound + Any Empty Bottle/Pill
 
 
 
@@ -118,6 +130,7 @@ IbuprofenBox
 TramadolBox
 CodeineBottle
 VicodinBottle
+MorphineBottle
 
 -- Inyecciones --
 MethNeedle
@@ -125,6 +138,7 @@ CocaineNeedle
 CrackNeedle
 AmphNeedle
 FentanylNeedle
+MorphineNeedle
 
 -- Cucharas --
 HeroinSpoonDrug
@@ -150,6 +164,9 @@ Make Codeine Compound
 Make Codeine
 Make Vicodin Compound
 Make Vicodin
+Make Morphine Compound
+Make Morphine
+Add Morphine into Needle
 
 Nuevos Iconos:
 Adderall -> Pastillitas.png
@@ -173,6 +190,10 @@ Codeine -> Pastillitas.png
 CodeineBottle -> CodeineBottle.png
 Vicodin -> Pastillitas.png
 VicodinBottle -> VicodinBottle.png
+MorphineBottle -> MorphineBottle.png
+
+Nuevos Iconos Trait:
+Pharmaceutical
 
 Nuevos Sonidos:
 TragarLean

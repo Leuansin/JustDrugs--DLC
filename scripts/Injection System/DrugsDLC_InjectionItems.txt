@@ -65,6 +65,31 @@ module DrugsDLC
 		Tooltip 		    = Tooltip_SpoonDrug,
     }
 
+item MorphineNeedle
+    {
+        DisplayName					= Needle with Morphine,
+		DisplayCategory             = Drugs,
+		Type						= Food,
+		Weight						= 0.1,
+		Icon						= HeroinNeedle,
+		Packaged 					= FALSE,
+		FatigueChange	        	= 60,
+		UnhappyChange				= -100,  
+		EnduranceChange 			= -60,
+		BoredomChange 				= -90,
+		PainReduction 				= 300,
+		StressChange				= -300,  
+		Poison 						= True,
+		PoisonPower					= 2,    
+		ReduceInfectionPower     	= 2,  
+		ReplaceOnUse	        	= DrugsDLC.Needle,
+		CustomContextMenu 		    = Inject,
+		CustomEatSound 				= injectdrugs,
+        WorldStaticModel 			= DrugNeedle,
+		Tooltip 					= Tooltip_Morphine,
+    }
+
+
 item HeroinNeedle
     {
         DisplayName					= Needle with Heroin,

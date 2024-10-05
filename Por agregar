@@ -7,25 +7,22 @@ Ibuprofen | LISTA
 Tramadol | LISTA
 Codeine | LISTA
 Vicodin | LISTA
-Morphine
+Morphine | LISTA
+
 Phenobarbital
 Clonazepam
 
 DMT
-Khat
-Ayahuasca
-Peyote
-Burundanga | Devil's Breath
-Opium
 Neoprene | Neopren
 Jenkem
 Ectasy
 
---
-Agregar 
-        player:Say(getText("IGUI_GemSucceed2"));
-En los textos y en la IGUI de traducciones
---
+Khat | Fora
+Ayahuasca - Fora
+Peyote - Fora
+Burundanga | Devil's Breath - Fora
+Opium - Fora
+
 
 Futura Update:
 Efectos auditivos con los alucinogenos
