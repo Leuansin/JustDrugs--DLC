@@ -1,10 +1,29 @@
 IGUI_AR = {
-
     IGUI_CraftCategory_Drugs = "Drogas",
     IGUI_ItemCat_Drugs = "Drogas",
-    IGUI_ItemCat_Item = "Item",
-    IGUI_Intoxicacion_Levellow = "I'm feeling a Little bit overdosed, i should find Loperamide.",
-    IGUI_Intoxicacion_Levelhigh = "Damn im having an overdose, i should find Bismuth or Narcan.",
-    IGUI_DrogadictoTrait = "Adicto a las putas dr0gs",
-    IGUI_DrogadictoDescription = "Add sex",
+    IGUI_ItemCat_Item = "Artículo",
+
+    IGUI_Intoxicacion_Levellow = "Síntomas leves de sobredosis detectados; busca Loperamida.",
+    IGUI_Intoxicacion_Levelmid = "Síntomas moderados de sobredosis presentes; localiza Bismuto Subsalicilato.",
+    IGUI_Intoxicacion_Levelhigh = "Síntomas severos de sobredosis observados; se requiere Narcan de inmediato.",
+
+    IGUI_2days_Abstinence = "Siento un fuerte deseo de drogas después de dos días...",
+    IGUI_72_Abstinence = "Tres días completos; este es el pico de los síntomas de abstinencia.",
+    IGUI_73_Abstinence = "¡Los antojos son abrumadores!",
+    IGUI_96_Abstinence = "Deseando algunos hongos...",
+    IGUI_115_Abstinence = "Casi cinco días sin drogas... Estoy realmente orgulloso de este logro.",
+    IGUI_168_Abstinence = "Una semana sobrio; necesito dejar de pensar en los antojos.",
+    IGUI_300_Abstinence = "Sorprendentemente disfrutando de la sobriedad...",
+    IGUI_400_Abstinence = "Abrazando la sobriedad y sus beneficios.",
+    IGUI_Beat_DrugAddiction = "¿21 días consecutivos? Supongo que ya no los necesito.",
+    IGUI_Start_ofAddiction = "Mi cuerpo está señalando una necesidad de drogas... ¿Me estoy volviendo adicto?",
+
+    IGUI_DrogadictoTrait = "Adicto a las Drogas",
+    IGUI_DrogadictoDescription = "Eres un adicto a las drogas. Tu cuerpo anhelará sustancias, lo que llevará al aburrimiento.\nLos efectos de abstinencia aparecerán después de 12 horas sin consumo.\nPuedes superar esta adicción si te mantienes abstinente durante 21 días.\n(Este rasgo se aplica automáticamente cuando se usa en exceso drogas en el juego.)",
+    
+    IGUI_WalterWhiteTrait = "Señor de las Drogas",
+    IGUI_WalterWhiteDescription = "Siempre un paso adelante, fuiste el cerebro detrás de la producción y distribución de drogas.\nComienza con recetas para fabricar drogas duras (excluyendo formulaciones farmacéuticas).",
+    
+    IGUI_FarmaceuticoTrait = "Experto Farmacéutico",
+    IGUI_FarmaceuticoDescription = "Completaste un título en medicina.\nAhora eres un experto farmacéutico con conocimiento de todas las formulaciones de drogas.",
 }

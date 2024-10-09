@@ -3,27 +3,31 @@ IGUI_EN = {
     IGUI_CraftCategory_Drugs = "Drugs",
     IGUI_ItemCat_Drugs = "Drugs",
     IGUI_ItemCat_Item = "Item",
-<<<<<<< HEAD
 
     IGUI_Intoxicacion_Levellow = "Mild overdose symptoms detected; seek Loperamide.",
     IGUI_Intoxicacion_Levelmid = "Moderate overdose symptoms present; locate Bismuth Subsalicylate.",
     IGUI_Intoxicacion_Levelhigh = "Severe overdose symptoms noted; immediate Narcan required.",
 
-    IGUI_2days_Abstinence = "¡Damn!, I feel like i need some drugs...",
-    IGUI_72_Abstinence = "72 Hours, this should be the peak of abstinence...",
-    IGUI_73_Abstinence = "¡I NEED THEM!",
-    IGUI_96_Abstinence = "I would kill for some Shrooms.",
-    IGUI_115_Abstinence= "115 Hours without Drugs... Im really proud.",
-    IGUI_168_Abstinence = "1 Week without them, i gotta stop thinking about it.",
-    IGUI_300_Abstinence = "I kinda like being sober...",
-    IGUI_400_Abstinence = "I really like being sober",
-    IGUI_Beat_DrugAddiction = "¿21 Days in a row? Huh, Guess i don't need them anymore.",
-    IGUI_Start_ofAddiction = "I think my body is asking me for drugs... Have i become an addicted?",
+/* <<<<<<< HEAD THOUGHTS >>>>>>> */
+
+    IGUI_2days_Abstinence = "Feeling a strong urge for drugs after two days...",
+    IGUI_72_Abstinence = "Three days complete; this marks the peak of withdrawal symptoms.",
+    IGUI_73_Abstinence = "The cravings are overwhelming!",
+    IGUI_96_Abstinence = "Longing for some shrooms...",
+    IGUI_115_Abstinence = "Almost five days without drugs... I'm genuinely proud of this achievement.",
+    IGUI_168_Abstinence = "One week sober; need to stop fixating on cravings.",
+    IGUI_300_Abstinence = "Surprisingly enjoying sobriety...",
+    IGUI_400_Abstinence = "Embracing sobriety and its benefits.",
+    IGUI_Beat_DrugAddiction = "21 consecutive days? I guess I no longer need them.",
+    IGUI_Start_ofAddiction = "My body is signaling a need for drugs... Am I becoming addicted?",
+
+/* <<<<<<< TRAITS >>>>>>> */
 
     IGUI_DrogadictoTrait = "Drug Addict",
-    IGUI_DrogadictoDescription = "You are a Drug Addict. Your body will ask for drugs and you will get bored.\nYou're going to experience Withdrawal effects if you don't consume for 12 hours.\nYou can eventually outgrow your addiction if you don't consume in 21 days.\n(This trait will be added automatically if you consume a lot of drugs ingame)",
+    IGUI_DrogadictoDescription = "You are a Drug Addict. Your body will crave substances, leading to boredom.\nWithdrawal effects will manifest after 12 hours without consumption.\nYou can potentially overcome this addiction if you remain abstinent for 21 days.\n(This trait is automatically applied when excessive drug use occurs in-game.)",
     IGUI_WalterWhiteTrait = "Drug Lord",
-    IGUI_WalterWhiteDescription = "You were always smarter than the rest. You were the one making & selling the drugs to them!\nStart with the Recipes Learned of How to Cook Drug (Only hard drugs, not pharmaceutical drugs)",
-    IGUI_FarmaceuticoTrait = "Pharmaceutical",
-    IGUI_FarmaceuticoDescription = "You went to university to study medicine\nEnd up being Pharmaceutical and knowing all pharmacy drugs recipes.",
+    IGUI_WalterWhiteDescription = "Always one step ahead, you were the mastermind behind the production and distribution of drugs.\nStart with recipes for crafting hard drugs (not including pharmaceutical formulations).",
+    IGUI_FarmaceuticoTrait = "Pharmaceutical Expert",
+    IGUI_FarmaceuticoDescription = "Completed a degree in medicine.\nNow a pharmaceutical expert with knowledge of all drug formulations.",
 }
+
